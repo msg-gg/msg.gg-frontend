@@ -1,29 +1,15 @@
 {
   "name": "msg.gg-frontend",
-  "version": "1.0.0",
-  "description": "메이플 종합 통계",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/msg-gg/msg.gg-frontend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/msg-gg/msg.gg-frontend/issues"
-  },
-  "homepage": "https://github.com/msg-gg/msg.gg-frontend#readme",
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "babel-plugin-styled-components": "^1.11.1",
-    "next": "^9.5.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.2.0"
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }
