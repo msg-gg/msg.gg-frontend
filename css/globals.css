@@ -2,9 +2,25 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
+
+/* 텍스트 사이즈 */
+.fs-n3 { font-size: 0.85em; }
+.fs-n2 { font-size: 0.9em; }
+.fs-n1 { font-size: 0.95em; }
+
+.fs-1 { font-size: 1em; }
+.fs-2 { font-size: 1.2em; }
+.fs-3 { font-size: 1.4em; }
+.fs-4 { font-size: 1.6em; }
+.fs-5 { font-size: 1.8em; }
+.fs-6 { font-size: 2em; }
+.fs-7 { font-size: 4em; }
+.fs-8 { font-size: 5em; }
+
+.font-bold { font-weight: bold; }
+.font-lighter { font-weight: lighter; }
 
 a {
   color: inherit;

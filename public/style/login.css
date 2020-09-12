@@ -1,0 +1,17 @@
+#__next {
+    background-image: url(/images/login.png);
+}
+
+header {
+    height: 100px;
+    padding: 0 60px !important;
+}
+header > .auth > a {
+    padding: 0 1em;
+}
+header > .auth > a:hover {
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(180deg , rgb(255, 58, 58), #ff9445) 1;
+    overflow: hidden;
+}
