@@ -1,5 +1,7 @@
 #__next {
     background-image: url(/images/login.png);
+
+    position: relative;
 }
 
 header {
@@ -7,11 +9,44 @@ header {
     padding: 0 60px !important;
 }
 header > .auth > a {
-    padding: 0 1em;
+    width: 100px;
 }
-header > .auth > a:hover {
-    border-width: 5px;
-    border-style: solid;
-    border-image: linear-gradient(180deg , rgb(255, 58, 58), #ff9445) 1;
-    overflow: hidden;
+
+.loginForm {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.loginForm img {
+    width: 40px;
+}
+.loginForm .form-group > input {
+    width: 25vw;
+    background: none;
+
+    color: #eeeeee;
+
+    border: none;
+    border-bottom: 1px solid #f7f7f7;
+    outline: none;
+
+    padding: 0 0 0.3em .5em;
+    margin-left: 1em;
+}
+.loginForm .form-group > input::placeholder {
+    color: #eeeeee;
+}
+.loginForm .login > input {
+    background: linear-gradient( 270deg, #ff4545, #ff9445 );
+
+    padding: 10px 35px;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 1400px) { 
+    .loginForm .form-group > input  {
+        width: 350px;
+    }
 }
