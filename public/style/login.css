@@ -1,5 +1,5 @@
 #__next {
-    background-image: url(/images/login.png);
+    background-image: url(/images/background/login.png);
 
     position: relative;
 }
@@ -38,10 +38,11 @@ header > .auth > a {
     color: #eeeeee;
 }
 .loginForm .login > input {
-    background: linear-gradient( 270deg, #ff4545, #ff9445 );
+    background: linear-gradient( 120deg, #f28e26, #fd644f );
 
     padding: 10px 35px;
     border: none;
+    border-radius: 5px;
     outline: none;
 }
 
