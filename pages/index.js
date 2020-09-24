@@ -1,5 +1,5 @@
-import Header from "../compornents/loginHeader"
-import Form from "../compornents/loginForm"
+import Header from "../compornents/Header/loginHeader"
+import Form from "../compornents/Form/loginForm"
 
 const Index = () => {
     return (

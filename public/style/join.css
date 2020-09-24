@@ -1,0 +1,56 @@
+#__next {
+    background-image: url(/images/background/login.png);
+
+    position: relative;
+}
+
+header {
+    height: 100px;
+    padding: 0 60px !important;
+}
+header > .auth > a {
+    width: 100px;
+}
+
+.loginForm {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.loginForm img {
+    width: 40px;
+}
+.loginForm .form-group > input {
+    width: 25vw;
+    background: none;
+
+    color: #eeeeee;
+
+    border: none;
+    border-bottom: 1px solid #f7f7f7;
+    outline: none;
+    opacity: .7;
+
+    padding: 0 0 0.3em .5em;
+    margin-left: 1em;
+}
+.loginForm .form-group > input::placeholder {
+    color: #eeeeee;
+}
+.loginForm .login > input {
+    width: 80%;
+
+    background: linear-gradient( 120deg, #48c6ef, #6f86d6 );
+
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+@media (max-width: 1400px) { 
+    .loginForm .form-group > input  {
+        width: 350px;
+    }
+}
