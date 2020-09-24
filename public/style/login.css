@@ -30,6 +30,7 @@ header > .auth > a {
     border: none;
     border-bottom: 1px solid #f7f7f7;
     outline: none;
+    opacity: .7;
 
     padding: 0 0 0.3em .5em;
     margin-left: 1em;
@@ -38,6 +39,8 @@ header > .auth > a {
     color: #eeeeee;
 }
 .loginForm .login > input {
+    width: 80%;
+
     background: linear-gradient( 120deg, #f28e26, #fd644f );
 
     padding: 10px 35px;
