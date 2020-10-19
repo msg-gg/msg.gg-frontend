@@ -1,6 +1,14 @@
 import Link from 'next/link'
+import { useEffect } from "react";
 
 const loginForm = () => {
+    useEffect(() => {
+        document.querySelector(".loginForm form").style.opacity = ".2";
+        setTimeout(() => {
+            document.querySelector(".loginForm form").style.opacity = "1";
+        }, 10)
+    })
+
     return (
         <div className="loginForm">
             <form>
