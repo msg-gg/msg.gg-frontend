@@ -1,6 +1,4 @@
 #__next {
-    background-image: url(/images/background/login.png);
-
     position: relative;
 }
 
@@ -10,8 +8,6 @@ header {
 
     background-color: rgba(17, 17, 17, 0.75);
     box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
-
-    
 
     position: fixed;
     left: 0; top: 0;

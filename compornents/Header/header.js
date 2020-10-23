@@ -11,15 +11,6 @@ const header = () => {
 
     return (
         <header className="d-flex align-items-center fs-2 text-white">
-            <Head>
-                <title>msg.gg</title>
-                <link rel="stylesheet" href="/style/header.css" />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap"
-                    rel="stylesheet"
-                ></link>
-                <script src="/js/app.js"></script>
-            </Head>
             <div className="header__logo flex-center col-2">
                 <img className="pointer" src="/images/logo/logo.png" alt=""/>
             </div>
