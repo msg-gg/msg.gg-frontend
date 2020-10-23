@@ -21,7 +21,7 @@ const header = () => {
                 <script src="/js/app.js"></script>
             </Head>
             <div className="header__logo flex-center col-2">
-                <img class="pointer" src="/images/logo/logo.png" alt=""/>
+                <img className="pointer" src="/images/logo/logo.png" alt=""/>
             </div>
             <div className="header__nav h-100">
                 <Nav></Nav>
