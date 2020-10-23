@@ -19,8 +19,28 @@ body {
 .fs-7 { font-size: 4em; }
 .fs-8 { font-size: 5em; }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .font-bold { font-weight: bold; }
 .font-lighter { font-weight: lighter; }
+
+.pointer { cursor: pointer; }
+
+.nav-text { font-size: .9em; color: rgb(212, 212, 212); }
 
 a {
   color: inherit;

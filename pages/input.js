@@ -1,4 +1,4 @@
-import Header from "../compornents/Header/loginHeader"
+import Header from "../compornents/Header/header"
 import axios from "axios";
 import cheerio from "cheerio";
 
@@ -66,7 +66,7 @@ const Index = () => {
     return (
         <div>
             <Header></Header>
-            <input className="form-control" type="search" onKeyPress={ onKeyPress }/>
+            <input className="w-25 form-control" type="search" onKeyPress={ onKeyPress }/>
         </div>
     );
 

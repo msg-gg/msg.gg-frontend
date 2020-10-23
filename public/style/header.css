@@ -1,0 +1,95 @@
+#__next {
+    background-image: url(/images/background/login.png);
+
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 66px;
+
+    background-color: rgba(17, 17, 17, 0.75);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
+
+    
+
+    position: fixed;
+    left: 0; top: 0;
+    z-index: 1000;
+}
+
+/* logo */
+
+.header__logo img { width: 115px; }
+
+/*  */
+
+/* nav */
+
+.header__nav { width: 310px;}
+.header__navitem { position: relative; }
+.header__navitem:hover ul, .header__navitem > ul:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+nav > div::after {
+    content: '';
+    display: block;
+    border-top: 5px solid #ccc;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    box-sizing: border-box;
+
+    margin-left: 8px;
+    padding: 0;
+}
+
+nav a:hover { color: #fff; text-shadow: 0 0 5px #a749ff, 0 0 5px #a749ff, 0 0 5px #a749ff; }
+
+.header__navitem_sublist { 
+    background: #272626;
+
+    position: absolute;
+    top: 66px;
+    left: -20px;
+    
+    transition: all 0.2s ease-in;
+    
+    border-radius: 1px;
+
+    opacity: 0;
+    visibility: hidden;
+}
+.header__navitem_sublist li {
+    width: 150px;
+    height: 63px;
+}
+.header__navitem_sublist li a {
+    width: 100%;
+    height: 100%;
+    
+    font-size: .9em;
+    line-height: 63px;
+
+    margin-left: 20px;
+}
+
+/*  */
+
+/* header__login */
+
+.header__login {
+    height: 100%;
+
+    position: absolute;
+    right: 50px; top: 0;
+}
+
+/*  */
+
+input {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}

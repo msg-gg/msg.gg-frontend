@@ -1,11 +1,9 @@
-import Header from "../compornents/Header/loginHeader"
-import Form from "../compornents/Form/loginForm"
+import Header from "../compornents/Header/header"
 
 const Index = () => {
     return (
         <div>
             <Header></Header>
-            <Form></Form>
         </div>
     );
 };
