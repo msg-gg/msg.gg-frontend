@@ -24,11 +24,6 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/input": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/input.js"
-    ],
     "/stats/Adventurer/DualBlade": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",

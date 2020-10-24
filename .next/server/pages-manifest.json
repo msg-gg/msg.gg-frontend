@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/input": "pages/input.js",
   "/stats/Adventurer/DualBlade": "pages/stats/Adventurer/DualBlade.js"
 }
