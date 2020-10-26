@@ -2,5 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/stats/Adventurer/DualBlade": "pages/stats/Adventurer/DualBlade.js"
+  "/group/Adventurer": "pages/group/Adventurer.js"
 }

@@ -14,7 +14,7 @@ const nav = () => {
             <div className="header__navitem h-100 flex-center">
                 <a className="nav-text pointer">통계</a>
                 <ul className="header__navitem_sublist">
-                    <li><Link href="/stats/Adventurer/DualBlade"><a>직업 통계</a></Link></li>
+                    <li><Link href="/group/Adventurer"><a>직업 통계</a></Link></li>
                     <li><Link href="/"><a>월드 통계</a></Link></li>
                 </ul>
             </div>

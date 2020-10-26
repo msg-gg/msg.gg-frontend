@@ -24,10 +24,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/stats/Adventurer/DualBlade": [
+    "/group/Adventurer": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/stats/Adventurer/DualBlade.js"
+      "static/chunks/pages/group/Adventurer.js"
     ]
   },
   "ampFirstPages": []
