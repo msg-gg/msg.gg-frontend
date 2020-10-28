@@ -6,18 +6,30 @@ import Footer from "../../compornents/Footer/footer"
 
 const Index = () => {
     const [job, setJob] = useState('dualblade');
-    const [group, setGroup] = useState('Adventurer');
 
     useEffect(() => {
-        var background = {
-            backgroundImage: `url(../../images/background/${job}.png)`,
-            filter: `blur("50%")`
-        }
+        document.querySelector(".character__img").style.transition = "0s";
+        document.querySelector(".character__img").style.height = "1800px";
+        
+        document.querySelector(".character__rect").style.transition = "0s";
+        document.querySelector(".character__rect").style.width = "100%";
+        document.querySelector(".character__rect").style.left = "-20%";
+        setTimeout(() => {
+            document.querySelector(".character__img").style.transition = ".8s";
+            document.querySelector(".character__img").style.height = "120vh";
+        
+            document.querySelector(".character__rect").style.transition = "1s";
+            document.querySelector(".character__rect").style.width = "30%";
+            document.querySelector(".character__rect").style.left = "20%";
+        }, 10)
     })
     
     var background = {
         backgroundImage: `url(../../images/background/${job}.png)`,
-        filter: `blur("50%")`
+    }
+
+    var characterImg = {
+        backgroundImage: `url(../../images/job/${job}.png)`,
     }
     
     return (
@@ -33,8 +45,9 @@ const Index = () => {
                 <script src="/js/app.js"></script>
             </Head>
             <Header></Header>
-            <div className="character__main">
+            <div className="character__wrap">
                 <div className="character__bg" style={background}></div>
+                <div className="character__rect"></div>
                 <ul className="character__sidebar">
                     <li className="character__group character__group__active pointer">
                         <Link href="/group/Adventurer"><a href="#">모험가</a></Link>
@@ -58,16 +71,20 @@ const Index = () => {
                         <Link href="/group/Kinesis"><a href="#">키네시스</a></Link>
                     </li>
                 </ul>
-            </div>
-            <div className="character__select flex-center">
-                <ul className="character flex-around">
-                    <li onClick={() => setJob("paladine")} className="paladine"></li>
-                    <li onClick={() => setJob("darknight")} className="darknight"></li>
-                    <li onClick={() => setJob("hero")} className="hero"></li>
-                    <li onClick={() => setJob("dualblade")} className="dualblade"></li>
-                    <li onClick={() => setJob("bishop")} className="bishop"></li>
-                    <li onClick={() => setJob("bowmaster")} className="bowmaster"></li>
-                </ul>
+                <div className="character__main">
+                    
+                    <div className="character__img" style={characterImg}></div>
+                </div>
+                <div className="character__select flex-center">
+                    <ul className="character flex-around">
+                        <li onClick={() => setJob("paladine")} className="paladine"></li>
+                        <li onClick={() => setJob("darknight")} className="darknight"></li>
+                        <li onClick={() => setJob("hero")} className="hero"></li>
+                        <li onClick={() => setJob("dualblade")} className="dualblade"></li>
+                        <li onClick={() => setJob("bishop")} className="bishop"></li>
+                        <li onClick={() => setJob("bowmaster")} className="bowmaster"></li>
+                    </ul>
+                </div>
             </div>
         </div>
     );

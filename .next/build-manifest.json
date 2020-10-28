@@ -28,6 +28,11 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/group/Adventurer.js"
+    ],
+    "/group/Cygnus": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Cygnus.js"
     ]
   },
   "ampFirstPages": []
