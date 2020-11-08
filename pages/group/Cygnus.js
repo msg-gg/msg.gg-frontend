@@ -65,7 +65,7 @@ const Index = () => {
                         <Link href="/group/Hero"><a href="#">영웅</a></Link>
                     </li>
                     <li className="character__group character__group__none pointer">
-                        <Link href="/group/Nova"><a href="#">노바</a></Link>
+                        <Link href="/group/Grandis"><a href="#">그란디스</a></Link>
                     </li>
                     <li className="character__group character__group__none pointer">
                         <Link href="/group/Zero"><a href="#">제로</a></Link>
@@ -76,7 +76,7 @@ const Index = () => {
                 </ul>
                 <div className="character__main">
                     
-                    <div className="character__img" style={characterImg}></div>
+                    <div id={job}className="character__img" style={characterImg}></div>
                 </div>
                 <div className="character__select flex-center">
                     <ul className="character flex-around">
