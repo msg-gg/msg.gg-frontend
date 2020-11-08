@@ -190,9 +190,17 @@
 .paladine { background-image: url(/images/job/paladine.png); }
 .darknight { background-image: url(/images/job/darknight.png); }
 .bishop { background-image: url(/images/job/bishop.png); }
+.arkmagetc { background-image: url(/images/job/arkmagetc.png); }
+.arkmagefp { background-image: url(/images/job/arkmagefp.png); }
 .bowmaster { background-image: url(/images/job/bowmaster.png); }
-
+.marks { background-image: url(/images/job/marks.png); }
+.pathfinder { background-image: url(/images/job/pathfinder.png); }
+.nightlord { background-image: url(/images/job/nightlord.png); }
+.shadower { background-image: url(/images/job/shadower.png); }
 .dualblade { background-image: url(/images/job/dualblade.png); }
+.viper { background-image: url(/images/job/viper.png); }
+.captain { background-image: url(/images/job/captain.png); }
+.cannonmaster { background-image: url(/images/job/cannonmaster.png); }
 
 /* cygnus */
 
@@ -203,4 +211,51 @@
 .nightWalker { background-image: url(/images/job/nightWalker.png); }
 .striker { background-image: url(/images/job/striker.png); }
 
+/* resistance */
+
+.mecanic { background-image: url(/images/job/mecanic.png); }
+.battleMage { background-image: url(/images/job/battleMage.png); }
+.blaster { background-image: url(/images/job/blaster.png); }
+.wildHunter { background-image: url(/images/job/wildHunter.png); }
+.xenon { background-image: url(/images/job/xenon.png); }
+.demonslayer { background-image: url(/images/job/demonslayer.png); }
+.demonavenger { background-image: url(/images/job/demonavenger.png); }
+
+/* heroes */
+
+.aran { background-image: url(/images/job/aran.png); }
+.evan { background-image: url(/images/job/evan.png); }
+.luminous { background-image: url(/images/job/luminous.png); }
+.mercedes { background-image: url(/images/job/mercedes.png); }
+.phantom { background-image: url(/images/job/phantom.png); }
+.shade { background-image: url(/images/job/shade.png); }
+
+/* grandis */
+
+.kaiser { background-image: url(/images/job/kaiser.png); }
+.cadena { background-image: url(/images/job/cadena.png); }
+.angelicbuster { background-image: url(/images/job/angelicbuster.png); }
+.adele { background-image: url(/images/job/adele.png); }
+.illium { background-image: url(/images/job/illium.png); }
+.ark { background-image: url(/images/job/ark.png); }
+.hoyoung { background-image: url(/images/job/hoyoung.png); }
+
+/* zero */
+
+.zero { background-image: url(/images/job/zero.png); }
+
+/* kinesis */
+
+.kinesis { background-image: url(/images/job/kinesis.png); }
+
 /*  */
+#hero { left: 45vw; top: -5vh;}
+#paladine { left: 50vw; top: 0vh;}
+#darknight { left: 45vw; top: 0vh;}
+#dualblade { left: 45vw; top: -5vh;}
+#bishop { left: 55vw; top:-15vh;}
+#bowmaster { left: 45vw; top: -5vh;}
+
+#soulMaster { left: 45vw; top: 5vh;}
+#mikhail { left: 50vw; top: -5vh;}
+#flameWizard { left: 45vw; top: 0vh;}
