@@ -122,7 +122,6 @@
 }
 
 .character__img {
-    width: 1200px;
 
     position: absolute;
     bottom: 0;
@@ -130,6 +129,7 @@
 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: left bottom;
 }
 
 /* select_character */

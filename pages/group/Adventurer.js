@@ -9,14 +9,16 @@ const Index = () => {
 
     useEffect(() => {
         document.querySelector(".character__img").style.transition = "0s";
-        document.querySelector(".character__img").style.height = "1800px";
+        document.querySelector(".character__img").style.width = "200vw";
+        document.querySelector(".character__img").style.height = "200vh";
         
         document.querySelector(".character__rect").style.transition = "0s";
         document.querySelector(".character__rect").style.width = "100%";
         document.querySelector(".character__rect").style.left = "-20%";
         setTimeout(() => {
             document.querySelector(".character__img").style.transition = ".8s";
-            document.querySelector(".character__img").style.height = "120vh";
+            document.querySelector(".character__img").style.width = "110vh";
+            document.querySelector(".character__img").style.height = "110vh";
         
             document.querySelector(".character__rect").style.transition = "1s";
             document.querySelector(".character__rect").style.width = "30%";
