@@ -120,7 +120,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./nav */ "./compornents/Header/nav.js");
-var _jsxFileName = "C:\\Users\\User\\Desktop\\msg.gg\\msg.gg-frontend\\compornents\\Header\\header.js";
+var _jsxFileName = "C:\\Users\\School\\Desktop\\msg.gg-frontend\\compornents\\Header\\header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -208,7 +208,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\User\\Desktop\\msg.gg\\msg.gg-frontend\\compornents\\Header\\nav.js";
+var _jsxFileName = "C:\\Users\\School\\Desktop\\msg.gg-frontend\\compornents\\Header\\nav.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -551,7 +551,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\User\\Desktop\\msg.gg\\msg.gg-frontend\\compornents\\Main.js";
+var _jsxFileName = "C:\\Users\\School\\Desktop\\msg.gg-frontend\\compornents\\Main.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3521,7 +3521,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _compornents_Header_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../compornents/Header/header */ "./compornents/Header/header.js");
 /* harmony import */ var _compornents_Main__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../compornents/Main */ "./compornents/Main.js");
-var _jsxFileName = "C:\\Users\\User\\Desktop\\msg.gg\\msg.gg-frontend\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\School\\Desktop\\msg.gg-frontend\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 

@@ -20,6 +20,7 @@ const Index = () => {
             document.querySelector(".character__img").style.transition = ".8s";
             document.querySelector(".character__img").style.width = "110vh";
             document.querySelector(".character__img").style.height = "110vh";
+            if(job == 'kaiser') { document.querySelector(".character__img").style.width = "150vh";  document.querySelector(".character__img").style.height = "150vh";  }
 
             document.querySelector(".character__rect").style.transition = "1s";
             document.querySelector(".character__rect").style.width = "30%";

@@ -19,6 +19,9 @@ const Index = () => {
             document.querySelector(".character__img").style.transition = ".8s";
             document.querySelector(".character__img").style.width = "110vh";
             document.querySelector(".character__img").style.height = "110vh";
+            if(job == 'hero') document.querySelector(".character__img").style.width = "150vh"; 
+            if(job == 'pathfinder') { document.querySelector(".character__img").style.width = "142vh"; document.querySelector(".character__img").style.height = "142vh"; }
+            if(job == 'darknight') { document.querySelector(".character__img").style.width = "142vh"; document.querySelector(".character__img").style.height = "142vh"; }
         
             document.querySelector(".character__rect").style.transition = "1s";
             document.querySelector(".character__rect").style.width = "30%";
@@ -88,7 +91,7 @@ const Index = () => {
                         <li onClick={() => setJob("bowmaster")} className="bowmaster"></li>
                         <li onClick={() => setJob("marks")} className="marks"></li>
                         <li onClick={() => setJob("pathfinder")} className="pathfinder"></li>
-                        {/* <li onClick={() => setJob("nightlord")} className="nightlord"></li> */}
+                        <li onClick={() => setJob("nightlord")} className="nightlord"></li>
                         <li onClick={() => setJob("shadower")} className="shadower"></li>
                         <li onClick={() => setJob("dualblade")} className="dualblade"></li>
                         <li onClick={() => setJob("viper")} className="viper"></li>

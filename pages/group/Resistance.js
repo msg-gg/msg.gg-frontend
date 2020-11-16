@@ -80,13 +80,13 @@ const Index = () => {
                 </div>
                 <div className="character__select flex-center">
                     <ul className="character flex-around">
-                        {/* <li onClick={() => setJob("mecanic")} className="mecanic"></li> */}
+                        <li onClick={() => setJob("mecanic")} className="mecanic"></li>
                         <li onClick={() => setJob("battleMage")} className="battleMage"></li>
                         <li onClick={() => setJob("blaster")} className="blaster"></li>
                         <li onClick={() => setJob("wildHunter")} className="wildHunter"></li>
                         <li onClick={() => setJob("xenon")} className="xenon"></li>
-                        {/* <li onClick={() => setJob("demonslayer")} className="demonslayer"></li>
-                        <li onClick={() => setJob("demonavenger")} className="demonavenger"></li> */}
+                        <li onClick={() => setJob("demonslayer")} className="demonslayer"></li>
+                        <li onClick={() => setJob("demonavenger")} className="demonavenger"></li>
                     </ul>
                 </div>
             </div>

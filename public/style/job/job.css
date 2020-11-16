@@ -186,18 +186,18 @@
 
 /* adventurer */
 
-.hero { background-image: url(/images/job/hero.png); }
-.paladine { background-image: url(/images/job/paladine.png); }
-.darknight { background-image: url(/images/job/darknight.png); }
+.hero { background-image: url(/images/border/hero.png); }
+.paladine { background-image: url(/images/border/paladine.png); }
+.darknight { background-image: url(/images/border/darknight.png); }
 .bishop { background-image: url(/images/job/bishop.png); }
 .arkmagetc { background-image: url(/images/job/arkmagetc.png); }
 .arkmagefp { background-image: url(/images/job/arkmagefp.png); }
-.bowmaster { background-image: url(/images/job/bowmaster.png); }
+.bowmaster { background-image: url(/images/border/bowmaster.png); }
 .marks { background-image: url(/images/job/marks.png); }
 .pathfinder { background-image: url(/images/job/pathfinder.png); }
 .nightlord { background-image: url(/images/job/nightlord.png); }
 .shadower { background-image: url(/images/job/shadower.png); }
-.dualblade { background-image: url(/images/job/dualblade.png); }
+.dualblade { background-image: url(/images/border/dualblade.png); }
 .viper { background-image: url(/images/job/viper.png); }
 .captain { background-image: url(/images/job/captain.png); }
 .cannonmaster { background-image: url(/images/job/cannonmaster.png); }
@@ -249,13 +249,54 @@
 .kinesis { background-image: url(/images/job/kinesis.png); }
 
 /*  */
-#hero { left: 45vw; top: -5vh;}
-#paladine { left: 50vw; top: 0vh;}
-#darknight { left: 45vw; top: 0vh;}
-#dualblade { left: 45vw; top: -5vh;}
-#bishop { left: 55vw; top:-15vh;}
-#bowmaster { left: 45vw; top: -5vh;}
+#hero { left: 47vw; top: -5vh;}
+#paladine { left: 45vw; top: -1vh; }
+#darknight { left: 40vw; top: -30vh; }
+#arkmagetc { left: 48vw; top: -5vh; }
+#arkmagefp { left: 48vw; top: -8vh; }
+#bishop { left: 55vw; top: -8vh; }
+#marks { left: 48vw; top: -3vh; }
+#bowmaster { left: 48vw; top: -5vh; }
+#pathfinder { left: 40vw; top: -20vh; }
+#nightlord { left: 48vw; top: 0vh; }
+#shadower { left: 48vw; top: -3vh; }
+#dualblade { left: 45vw; top: -5vh; }
+#viper { left: 47vw; top: -3vh; }
+#captain { left: 55vw; top: -3vh; }
+#cannonmaster { left: 55vw; top: -3vh; }
 
-#soulMaster { left: 45vw; top: 5vh;}
-#mikhail { left: 50vw; top: -5vh;}
-#flameWizard { left: 45vw; top: 0vh;}
+#soulMaster { left: 49vw; top: 0vh;}
+#mikhail { left: 56vw; top: -3vh;}
+#flameWizard { left: 49vw; top: 0vh;}
+#windBreaker { left: 49vw; top: -1vh;}
+#nightWalker { left: 49vw; top: 1vh;}
+#striker { left: 48vw; top: 3vh;}
+
+#battleMage { left: 51vw; top: -6vh;}
+#blaster { left: 50vw; top: 0vh;}
+#soulMaster { left: 48vw; top: 0vh;}
+#wildHunter { left: 48vw; top: 0vh; }
+#xenon { left: 48vw; top: -5vh; }
+#demonslayer { left: 48vw; top: 0vh; }
+#demonavenger { left: 48vw; top: 0vh; }
+#demonslayer { left: 45vw; top: -5vh; }
+#demonavenger { left: 52vw; top: -12vh; }
+
+#aran { left: 48vw; top: 0vh; }
+#evan { left: 48vw; top: 0vh; }
+#luminous { left: 48vw; top: 0vh; }
+#mercedes { left: 48vw; top: 0vh; }
+#phantom { left: 52vw; top: 0vh; }
+#shade { left: 50vw; top: 0vh; }
+
+#kaiser { top: -23vh; }
+#cadena { left: 48vw; top: 0vh; }
+#angelicbuster { left: 48vw; top: -5vh; }
+#adele { left: 48vw; top: -5vh; }
+#illium { left: 48vw; top: -5vh; }
+#ark { left: 48vw; top: -5vh; }
+#hoyoung { left: 48vw; top: -8vh; }
+
+#zero { left: 48vw; top: 0vh; }
+
+#kinesis { left: 48vw; top: -4vh; }
