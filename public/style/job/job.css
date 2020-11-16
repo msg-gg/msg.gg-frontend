@@ -189,64 +189,64 @@
 .hero { background-image: url(/images/border/hero.png); }
 .paladine { background-image: url(/images/border/paladine.png); }
 .darknight { background-image: url(/images/border/darknight.png); }
-.bishop { background-image: url(/images/job/bishop.png); }
-.arkmagetc { background-image: url(/images/job/arkmagetc.png); }
-.arkmagefp { background-image: url(/images/job/arkmagefp.png); }
+.bishop { background-image: url(/images/border/bishop.png); }
+.arkmagetc { background-image: url(/images/border/arkmagetc.png); }
+.arkmagefp { background-image: url(/images/border/arkmagefp.png); }
 .bowmaster { background-image: url(/images/border/bowmaster.png); }
-.marks { background-image: url(/images/job/marks.png); }
-.pathfinder { background-image: url(/images/job/pathfinder.png); }
-.nightlord { background-image: url(/images/job/nightlord.png); }
-.shadower { background-image: url(/images/job/shadower.png); }
+.marks { background-image: url(/images/border/marks.png); }
+.pathfinder { background-image: url(/images/border/pathfinder.png); }
+.nightlord { background-image: url(/images/border/nightlord.png); }
+.shadower { background-image: url(/images/border/shadower.png); }
 .dualblade { background-image: url(/images/border/dualblade.png); }
-.viper { background-image: url(/images/job/viper.png); }
-.captain { background-image: url(/images/job/captain.png); }
-.cannonmaster { background-image: url(/images/job/cannonmaster.png); }
+.viper { background-image: url(/images/border/viper.png); }
+.captain { background-image: url(/images/border/captain.png); }
+.cannonmaster { background-image: url(/images/border/cannonmaster.png); }
 
 /* cygnus */
 
-.soulMaster { background-image: url(/images/job/soulMaster.png); }
-.mikhail { background-image: url(/images/job/mikhail.png); }
-.flameWizard { background-image: url(/images/job/flameWizard.png); }
-.windBreaker { background-image: url(/images/job/windBreaker.png); }
-.nightWalker { background-image: url(/images/job/nightWalker.png); }
-.striker { background-image: url(/images/job/striker.png); }
+.soulMaster { background-image: url(/images/border/soulMaster.png); }
+.mikhail { background-image: url(/images/border/mikhail.png); }
+.flameWizard { background-image: url(/images/border/flameWizard.png); }
+.windBreaker { background-image: url(/images/border/windBreaker.png); }
+.nightWalker { background-image: url(/images/border/nightWalker.png); }
+.striker { background-image: url(/images/border/striker.png); }
 
 /* resistance */
 
-.mecanic { background-image: url(/images/job/mecanic.png); }
-.battleMage { background-image: url(/images/job/battleMage.png); }
-.blaster { background-image: url(/images/job/blaster.png); }
-.wildHunter { background-image: url(/images/job/wildHunter.png); }
-.xenon { background-image: url(/images/job/xenon.png); }
-.demonslayer { background-image: url(/images/job/demonslayer.png); }
-.demonavenger { background-image: url(/images/job/demonavenger.png); }
+.mecanic { background-image: url(/images/border/mecanic.png); }
+.battleMage { background-image: url(/images/border/battleMage.png); }
+.blaster { background-image: url(/images/border/blaster.png); }
+.wildHunter { background-image: url(/images/border/wildHunter.png); }
+.xenon { background-image: url(/images/border/xenon.png); }
+.demonslayer { background-image: url(/images/border/demonslayer.png); }
+.demonavenger { background-image: url(/images/border/demonavenger.png); }
 
 /* heroes */
 
-.aran { background-image: url(/images/job/aran.png); }
-.evan { background-image: url(/images/job/evan.png); }
-.luminous { background-image: url(/images/job/luminous.png); }
-.mercedes { background-image: url(/images/job/mercedes.png); }
-.phantom { background-image: url(/images/job/phantom.png); }
-.shade { background-image: url(/images/job/shade.png); }
+.aran { background-image: url(/images/border/aran.png); }
+.evan { background-image: url(/images/border/evan.png); }
+.luminous { background-image: url(/images/border/luminous.png); }
+.mercedes { background-image: url(/images/border/mercedes.png); }
+.phantom { background-image: url(/images/border/phantom.png); }
+.shade { background-image: url(/images/border/shade.png); }
 
 /* grandis */
 
-.kaiser { background-image: url(/images/job/kaiser.png); }
-.cadena { background-image: url(/images/job/cadena.png); }
-.angelicbuster { background-image: url(/images/job/angelicbuster.png); }
-.adele { background-image: url(/images/job/adele.png); }
-.illium { background-image: url(/images/job/illium.png); }
-.ark { background-image: url(/images/job/ark.png); }
-.hoyoung { background-image: url(/images/job/hoyoung.png); }
+.kaiser { background-image: url(/images/border/kaiser.png); }
+.cadena { background-image: url(/images/border/cadena.png); }
+.angelicbuster { background-image: url(/images/border/angelicbuster.png); }
+.adele { background-image: url(/images/border/adele.png); }
+.illium { background-image: url(/images/border/illium.png); }
+.ark { background-image: url(/images/border/ark.png); }
+.hoyoung { background-image: url(/images/border/hoyoung.png); }
 
 /* zero */
 
-.zero { background-image: url(/images/job/zero.png); }
+.zero { background-image: url(/images/border/zero.png); }
 
 /* kinesis */
 
-.kinesis { background-image: url(/images/job/kinesis.png); }
+.kinesis { background-image: url(/images/border/kinesis.png); }
 
 /*  */
 #hero { left: 47vw; top: -5vh;}
