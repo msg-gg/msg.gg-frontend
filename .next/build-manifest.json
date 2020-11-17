@@ -24,15 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/group/Adventurer": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Adventurer.js"
+    ],
     "/group/Cygnus": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/group/Cygnus.js"
-    ],
-    "/group/Resistance": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/group/Resistance.js"
     ],
     "/next/dist/pages/_error": [
       "static/chunks/main.js",

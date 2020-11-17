@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/group/Resistance": "pages/group/Resistance.js",
   "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/group/Cygnus": "pages/group/Cygnus.js"
+  "/group/Cygnus": "pages/group/Cygnus.js",
+  "/group/Adventurer": "pages/group/Adventurer.js"
 }

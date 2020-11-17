@@ -80,15 +80,19 @@ const Index = () => {
                     <div id={job} className="character__img" style={characterImg}></div>
                 </div>
                 <div className="character__select flex-center">
-                    <ul className="character flex-around">
-                        <li onClick={() => setJob("kaiser")} className="kaiser"></li>
-                        <li onClick={() => setJob("cadena")} className="cadena"></li>
-                        <li onClick={() => setJob("angelicbuster")} className="angelicbuster"></li>
-                        <li onClick={() => setJob("adele")} className="adele"></li>
-                        <li onClick={() => setJob("illium")} className="illium"></li>
-                        <li onClick={() => setJob("ark")} className="ark"></li>
-                        <li onClick={() => setJob("hoyoung")} className="hoyoung"></li>
-                    </ul>
+                    <img src="../../images/left-button.png" alt=""/>
+                    <div className="character__container">
+                        <ul className="character d-flex">
+                            <li onClick={() => setJob("kaiser")} className="kaiser"></li>
+                            <li onClick={() => setJob("cadena")} className="cadena"></li>
+                            <li onClick={() => setJob("angelicbuster")} className="angelicbuster"></li>
+                            <li onClick={() => setJob("adele")} className="adele"></li>
+                            <li onClick={() => setJob("illium")} className="illium"></li>
+                            <li onClick={() => setJob("ark")} className="ark"></li>
+                            <li onClick={() => setJob("hoyoung")} className="hoyoung"></li>
+                        </ul>
+                    </div>
+                    <img src="../../images/right-button.png" alt=""/>
                 </div>
             </div>
         </div>

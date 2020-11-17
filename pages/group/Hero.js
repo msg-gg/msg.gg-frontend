@@ -79,14 +79,18 @@ const Index = () => {
                     <div id={job} className="character__img" style={characterImg}></div>
                 </div>
                 <div className="character__select flex-center">
-                    <ul className="character flex-around">
-                        <li onClick={() => setJob("aran")} className="aran"></li>
-                        <li onClick={() => setJob("evan")} className="evan"></li>
-                        <li onClick={() => setJob("luminous")} className="luminous"></li>
-                        <li onClick={() => setJob("mercedes")} className="mercedes"></li>
-                        <li onClick={() => setJob("phantom")} className="phantom"></li>
-                        <li onClick={() => setJob("shade")} className="shade"></li>
-                    </ul>
+                    <img src="../../images/left-button.png" alt=""/>
+                    <div className="character__container">
+                        <ul className="character d-flex">
+                            <li onClick={() => setJob("aran")} className="aran"></li>
+                            <li onClick={() => setJob("evan")} className="evan"></li>
+                            <li onClick={() => setJob("luminous")} className="luminous"></li>
+                            <li onClick={() => setJob("mercedes")} className="mercedes"></li>
+                            <li onClick={() => setJob("phantom")} className="phantom"></li>
+                            <li onClick={() => setJob("shade")} className="shade"></li>
+                        </ul>
+                    </div>
+                    <img src="../../images/right-button.png" alt=""/>
                 </div>
             </div>
         </div>

@@ -122,7 +122,6 @@
 }
 
 .character__img {
-
     position: absolute;
     bottom: 0;
     left: calc(50% - 15vh);
@@ -165,20 +164,37 @@
 
     padding-top: 22px;
 }
+.character__select > img {
+    margin: 0 1em 1em 1em;
+
+    cursor: pointer;
+}
+
+.character__container {
+    width: 800px;
+    height: 100%;
+
+    overflow: hidden;
+}
 
 .character {
-    width: 1000px;
+    width: 100%;
     height: 150px;
 
     padding-bottom: 1.4em;
+
+    transform: translate3d(0px, 0px, 0px); 
+    transition-duration: 0ms;
 }
 .character > li {
-    width: 100px;
-    height: 110px;
+    min-width: 110px;
+    height: 130px;
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    margin-right: 30px;
 
     cursor: pointer;
 }
@@ -279,7 +295,7 @@
 #xenon { left: 48vw; top: -5vh; }
 #demonslayer { left: 48vw; top: 0vh; }
 #demonavenger { left: 48vw; top: 0vh; }
-#demonslayer { left: 45vw; top: -5vh; }
+#demonslayer { left: 45vw; top: 5vh; }
 #demonavenger { left: 52vw; top: -12vh; }
 
 #aran { left: 48vw; top: 0vh; }
@@ -289,7 +305,7 @@
 #phantom { left: 52vw; top: 0vh; }
 #shade { left: 50vw; top: 0vh; }
 
-#kaiser { top: -23vh; }
+#kaiser { top: -30vh; }
 #cadena { left: 48vw; top: 0vh; }
 #angelicbuster { left: 48vw; top: -5vh; }
 #adele { left: 48vw; top: -5vh; }

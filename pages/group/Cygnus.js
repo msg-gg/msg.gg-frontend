@@ -79,14 +79,18 @@ const Index = () => {
                     <div id={job}className="character__img" style={characterImg}></div>
                 </div>
                 <div className="character__select flex-center">
-                    <ul className="character flex-around">
-                        <li onClick={() => setJob("soulMaster")} className="soulMaster"></li>
-                        <li onClick={() => setJob("mikhail")} className="mikhail"></li>
-                        <li onClick={() => setJob("flameWizard")} className="flameWizard"></li>
-                        <li onClick={() => setJob("windBreaker")} className="windBreaker"></li>
-                        <li onClick={() => setJob("nightWalker")} className="nightWalker"></li>
-                        <li onClick={() => setJob("striker")} className="striker"></li>
-                    </ul>
+                    <img src="../../images/left-button.png" alt=""/>
+                    <div className="character__container">
+                        <ul className="character d-flex">
+                            <li onClick={() => setJob("soulMaster")} className="soulMaster"></li>
+                            <li onClick={() => setJob("mikhail")} className="mikhail"></li>
+                            <li onClick={() => setJob("flameWizard")} className="flameWizard"></li>
+                            <li onClick={() => setJob("windBreaker")} className="windBreaker"></li>
+                            <li onClick={() => setJob("nightWalker")} className="nightWalker"></li>
+                            <li onClick={() => setJob("striker")} className="striker"></li>
+                        </ul>
+                    </div>
+                    <img src="../../images/right-button.png" alt=""/>
                 </div>
             </div>
         </div>

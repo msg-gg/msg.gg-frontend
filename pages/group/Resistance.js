@@ -20,6 +20,7 @@ const Index = () => {
             document.querySelector(".character__img").style.transition = ".8s";
             document.querySelector(".character__img").style.width = "110vh";
             document.querySelector(".character__img").style.height = "110vh";
+            if(job == 'demonslayer') { document.querySelector(".character__img").style.width = "110vh";  document.querySelector(".character__img").style.height = "100vh";  }
 
             document.querySelector(".character__rect").style.transition = "1s";
             document.querySelector(".character__rect").style.width = "30%";
