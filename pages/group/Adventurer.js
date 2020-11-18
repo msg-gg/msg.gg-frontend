@@ -71,7 +71,7 @@ const Index = () => {
             let width = (100 * ratio[i]) / max; 
             tr.innerHTML = `
                             <td>${i + 1} </td>
-                            <td><img className="sever__image" style="margin-right: .5em;" src="../../images/world/${world.en}.gif" alt=""/> ${world.ko}</td>
+                            <td><img className="server__image" style="height: 1.8vh; margin-right: .5em;" src="../../images/world/${world.en}.gif" alt=""/> ${world.ko}</td>
                             <td>
                                 <div class="progress" style="min-width: 180px;" >
                                     <div class="progress-bar" role="progressbar" style="width: ${width}%;">${ratio[i]}%</div>
@@ -128,9 +128,9 @@ const Index = () => {
                 <div className="character__bg bg__hero"></div>
                 <div className="character__bg bg__paladine"></div>
                 <div className="character__bg bg__darknight"></div>
-                <div className="character__bg bg__bishop"></div>
                 <div className="character__bg bg__arkmagetc"></div>
                 <div className="character__bg bg__arkmagefp"></div>
+                <div className="character__bg bg__bishop"></div>
                 <div className="character__bg bg__bowmaster"></div>
                 <div className="character__bg bg__marks"></div>
                 <div className="character__bg bg__pathfinder"></div>
