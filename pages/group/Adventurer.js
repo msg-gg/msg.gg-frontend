@@ -5,7 +5,7 @@ import Header from "../../compornents/Header/header";
 import Footer from "../../compornents/Footer/footer"
 
 const Index = () => {
-    const [job, setJob] = useState('hero');
+    const [job, setJob] = useState("");
     const [num, setNum] = useState(0);
 
     const jobArr = [
@@ -25,19 +25,67 @@ const Index = () => {
         "captain",
         "cannonmaster"
     ]
+
+    const ratio = [
+        4.50, 4.08, 3.59, 3.47, 3.43, 3.41, 3.41, 3.37, 3.36, 3.35, 3.34, 3.33, 3.09, 2.98
+    ];
+
+    const server = [
+        { en : "reboot", ko : "리부트" },
+        { en : "reboot", ko : "리부트2" },
+        { en : "red", ko : "레드" },
+        { en : "elysium", ko : "엘리시움" },
+        { en : "croa", ko : "크로아" },
+        { en : "zenith", ko : "제니스" },
+        { en : "aurora", ko : "오로라" },
+        { en : "bera", ko : "베라" },
+        { en : "union", ko : "유니온" },
+        { en : "nova", ko : "노바" },
+        { en : "scania", ko : "스카니아" },
+        { en : "luna", ko : "루나" },
+        { en : "enosis", ko : "이노시스" },
+        { en : "arcane", ko :  "아케인" }      
+    ]
+
     useEffect(() => {
         setJob(jobArr[num]);
+
         let characterImg = document.querySelector(".character__img");
         let characterRect = document.querySelector(".character__rect");
         let characterSelecter = document.querySelector(".character");
-        let characterBg = document.querySelector(".character__bg"); 
+        let characterName = document.querySelector(".character__name");
+        let characterBg = document.querySelectorAll(`.character__bg`); 
+        let serverArea = document.querySelector(".server__area");
 
-        characterBg.style.backgroundImage = `url(../../images/background/${job}.png)`;
+        characterBg.forEach(bg => {
+            bg.style.opacity = "0";
+        })
+        characterBg[num].style.opacity = "1";
+        
+        serverArea.innerHTML = "";
+
+        let max = ratio[0];
+        
+        server.forEach((world, i) => {
+            let tr = document.createElement("tr");
+            let width = (100 * ratio[i]) / max; 
+            tr.innerHTML = `
+                            <td>${i + 1} </td>
+                            <td><img className="sever__image" style="margin-right: .5em;" src="../../images/world/${world.en}.gif" alt=""/> ${world.ko}</td>
+                            <td>
+                                <div class="progress" style="min-width: 180px;" >
+                                    <div class="progress-bar" role="progressbar" style="width: ${width}%;">${ratio[i]}%</div>
+                                </div>
+                            </td>`;
+            serverArea.appendChild(tr)
+        })
+
         characterImg.style.backgroundImage = `url(../../images/job/${job}.png)`;
+        characterName.style.backgroundImage = `url(../../images/name/${job}.png)`;
 
         characterImg.style.transition = "0s";
-        characterImg.style.width = "200vw";
-        characterImg.style.height = "200vh";
+        characterImg.style.width = "160vw";
+        characterImg.style.height = "160vh";
         
         characterRect.style.transition = "0s";
         characterRect.style.width = "100%";
@@ -45,10 +93,10 @@ const Index = () => {
 
         characterSelecter.style.transition = ".5s";
 
-        let oneBlock = -140
+        let oneBlock = -140;
         let translateX = num * oneBlock >= oneBlock * 2 ? 0 : (num - 2) * oneBlock < -1260 ? -1260 : (num - 2) * oneBlock;
         
-        characterSelecter.style.transform = `translate3d(${translateX}px, 0px, 0px)`;
+        characterSelecter.style.transform = `translateX(${translateX}px)`;
 
         setTimeout(() => {
             characterImg.style.transition = ".8s";
@@ -74,11 +122,24 @@ const Index = () => {
                     href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap"
                     rel="stylesheet"
                 ></link>
-                <script src="/js/app.js"></script>
             </Head>
             <Header></Header>
             <div className="character__wrap">
-                <div className="character__bg"></div>
+                <div className="character__bg bg__hero"></div>
+                <div className="character__bg bg__paladine"></div>
+                <div className="character__bg bg__darknight"></div>
+                <div className="character__bg bg__bishop"></div>
+                <div className="character__bg bg__arkmagetc"></div>
+                <div className="character__bg bg__arkmagefp"></div>
+                <div className="character__bg bg__bowmaster"></div>
+                <div className="character__bg bg__marks"></div>
+                <div className="character__bg bg__pathfinder"></div>
+                <div className="character__bg bg__nightlord"></div>
+                <div className="character__bg bg__shadower"></div>
+                <div className="character__bg bg__dualblade"></div>
+                <div className="character__bg bg__viper"></div>
+                <div className="character__bg bg__captain"></div>
+                <div className="character__bg bg__cannonmaster"></div>
                 <div className="character__rect"></div>
                 <ul className="character__sidebar">
                     <li className="character__group character__group__active pointer">
@@ -104,7 +165,20 @@ const Index = () => {
                     </li>
                 </ul>
                 <div className="character__main">
-                    
+                    <div className="character__stats">
+                        <div className="character__name"></div>
+                        <table className="character__stats__table text-white">
+                            <thead>
+                                <tr>
+                                    <td>순위</td>
+                                    <td>월드</td>
+                                    <td>월드내 유저비율</td>
+                                </tr>
+                            </thead>
+                                <tbody className="server__area">
+                                </tbody>
+                        </table>
+                    </div>
                     <div id={job} className="character__img"></div>
                 </div>
                 <div className="character__select flex-center">
