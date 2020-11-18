@@ -126,8 +126,8 @@ const Index = () => {
             <Header></Header>
             <div className="character__wrap">
                 <div className="character__bg bg__hero"></div>
-                <div className="character__bg bg__paladine"></div>
                 <div className="character__bg bg__darknight"></div>
+                <div className="character__bg bg__paladine"></div>
                 <div className="character__bg bg__arkmagetc"></div>
                 <div className="character__bg bg__arkmagefp"></div>
                 <div className="character__bg bg__bishop"></div>
