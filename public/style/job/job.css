@@ -408,6 +408,25 @@
     background-image: url(/images/border/striker.png);
 }
 
+.bg__soulMaster {
+    background-image: url(/images/background/soulMaster.png);
+}
+.bg__mikhail {
+    background-image: url(/images/background/mikhail.png);
+}
+.bg__flameWizard {
+    background-image: url(/images/background/flameWizard.png);
+}
+.bg__windBreaker {
+    background-image: url(/images/background/windBreaker.png);
+}
+.bg__nightWalker {
+    background-image: url(/images/background/nightWalker.png);
+}
+.bg__striker {
+    background-image: url(/images/background/striker.png);
+}
+
 /* resistance */
 
 .mecanic {
@@ -432,6 +451,28 @@
     background-image: url(/images/border/demonavenger.png);
 }
 
+.bg__mecanic {
+    background-image: url(/images/background/mecanic.png);
+}
+.bg__battleMage {
+    background-image: url(/images/background/battleMage.png);
+}
+.bg__blaster {
+    background-image: url(/images/background/blaster.png);
+}
+.bg_wildHunter {
+    background-image: url(/images/background/wildHunter.png);
+}
+.bg__xenon {
+    background-image: url(/images/background/xenon.png);
+}
+.bg__demonslayer {
+    background-image: url(/images/background/demonslayer.png);
+}
+.bg__demonavenger {
+    background-image: url(/images/background/demonavenger.png);
+}
+
 /* heroes */
 
 .aran {
@@ -451,6 +492,25 @@
 }
 .shade {
     background-image: url(/images/border/shade.png);
+}
+
+.bg__aran {
+    background-image: url(/images/background/aran.png);
+}
+.bg__evan {
+    background-image: url(/images/background/evan.png);
+}
+.bg__luminous {
+    background-image: url(/images/background/luminous.png);
+}
+.bg__mercedes {
+    background-image: url(/images/background/mercedes.png);
+}
+.bg__phantom {
+    background-image: url(/images/background/phantom.png);
+}
+.bg__shade {
+    background-image: url(/images/background/shade.png);
 }
 
 /* grandis */
@@ -477,16 +537,46 @@
     background-image: url(/images/border/hoyoung.png);
 }
 
+.bg__kaiser {
+    background-image: url(/images/background/_kaiser.png);
+}
+.bg__cadena {
+    background-image: url(/images/background/cadena.png);
+}
+.bg__angelicbuster {
+    background-image: url(/images/background/angelicbuster.png);
+}
+.bg__adele {
+    background-image: url(/images/background/adele.png);
+}
+.bg__illium {
+    background-image: url(/images/background/illium.png);
+}
+.bg__ark {
+    background-image: url(/images/background/ark.png);
+}
+.bg__hoyoung {
+    background-image: url(/images/background/hoyoung.png);
+}
+
 /* zero */
 
 .zero {
     background-image: url(/images/border/zero.png);
 }
 
+.bg__zero {
+    background-image: url(/images/background/zero.png);
+}
+
 /* kinesis */
 
 .kinesis {
     background-image: url(/images/border/kinesis.png);
+}
+
+.bg__kinesis {
+    background-image: url(/images/background/kinesis.png);
 }
 
 /*  */
