@@ -129,7 +129,7 @@
 }
 
 .character__stats {
-    width: 800px;
+    width: 45vw;
     height:  570px;
 
     position: relative;
@@ -138,45 +138,39 @@
 }
 
 .character__name {
-    width: auto;
-    height: 180px;
+    width: 45vw;
+    height: 150px;
 
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 80%;
 }
 
-.TABLE tbody {
-    float: left;
-    width: 890px;
-    height: 100px;
-}
-
 .character__stats__table {
     width: 100%;
     height: auto;
 
-    font-size: 1.125em;
+    font-size: 20px;
 }
 .character__stats__table {
     display: block;
     padding-left: 3.2em;
 }
 .character__stats__table tr {
-    height: 40px;
+    height: 4vh;
 }
 .character__stats__table td {
-    padding-left: 4em;
+    padding-left: 5vw;
 }
 .character__stats__table td:first-child {
     padding-left: 0;
     text-align: right;
 }
 .character__stats__table thead td:last-child {
-    padding-left: 4.5em;
+    padding-left: 5vw;
 }
 .character__stats__table tbody td:last-child {
-    padding-left: 2em;
+    padding-left: 5vw;
     transform: translateY(-4px);
 }
 .character__stats__table thead {
@@ -188,15 +182,15 @@
 }
 .character__stats__table tbody {
     width: 100%;
-    height: 35vh;
+    height: 40vh;
     display: inline-block;
     overflow: scroll;
 }
 .character__stats__table tbody::-webkit-scrollbar {
     display: none;
 }
-.sever__image {
-    height: 20px;
+.server__image {
+    height: 10vh;
 }
 
 .progress {
@@ -218,11 +212,39 @@
     position: absolute;
     bottom: 0;
     left: calc(50% - 15vh);
+    z-index: 1;
 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
 }
+
+@media (min-width: 2000px) { 
+    .character__name {
+        width: auto;
+        height: 200px;
+    }
+
+    .character__stats__table {
+        font-size: 25px;
+    }
+    
+    .progress {
+        height: 1.5vh !important;
+    }
+
+    .character__stats__table tbody {
+        height:  48vh;
+    }
+
+    .character__stats__table thead tr {
+        height: 58px;
+    }
+    
+    .character__stats__table thead td:last-child {
+        padding-left: 7.5vw;
+    }
+} 
 
 /* select_character */
 
@@ -547,7 +569,7 @@
     top: -3vh;
 }
 #cannonmaster {
-    left: 55vw;
+    left: 50vw;
     top: -3vh;
 }
 

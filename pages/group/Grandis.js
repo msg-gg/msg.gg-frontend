@@ -4,7 +4,7 @@ import Link from "next/link";
 import Header from "../../compornents/Header/header";
 import Footer from "../../compornents/Footer/footer"
 
-const Index = () => {
+const Grandis = () => {
     const [job, setJob] = useState('kaiser');
     const [group, setGroup] = useState('Grandis');
 
@@ -49,7 +49,7 @@ const Index = () => {
                 <script src="/js/app.js"></script>
             </Head>
             <Header></Header>
-            <div className="character__wrap">
+            <div className="wrap">
                 <div className="character__bg" style={background}></div>
                 <div className="character__rect"></div>
                 <ul className="character__sidebar">
@@ -99,4 +99,4 @@ const Index = () => {
     );
 };
 
-export default Index;
+export default Grandis;

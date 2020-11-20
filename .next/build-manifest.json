@@ -29,10 +29,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/group/Adventurer.js"
     ],
-    "/group/Grandis": [
+    "/init/initAdventurer": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/group/Grandis.js"
+      "static/chunks/pages/init/initAdventurer.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []

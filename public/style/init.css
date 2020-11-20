@@ -1,0 +1,95 @@
+* {
+    user-select: none;
+}
+
+.init__job {
+    width: 55vw;
+    height: 80vh;
+
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.init__job__title {
+    display: flex;
+    justify-content: center;
+}
+.init__job__title img { height: 230px; transform: translateX(10px); }
+
+.init__job__group { width: 500%; }
+.job__group { width: calc(100% / 5); height: 500px; padding-bottom: 20vh; }
+.job__group > div {
+    width: 350px;
+    height: 370px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.hero {
+    background-image: url(/images/init/hero.png);
+}
+.paladine {
+    background-image: url(/images/init/paladine.png);
+}
+.darknight {
+    background-image: url(/images/init/darknight.png);
+}
+.bishop {
+    background-image: url(/images/init/bishop.png);
+}
+.arkmagetc {
+    background-image: url(/images/init/arkmagetc.png);
+}
+.arkmagefp {
+    background-image: url(/images/init/arkmagefp.png);
+}
+.bowmaster {
+    background-image: url(/images/init/bowmaster.png);
+}
+.marks {
+    background-image: url(/images/init/marks.png);
+}
+.pathfinder {
+    background-image: url(/images/init/pathfinder.png);
+}
+.nightlord {
+    background-image: url(/images/init/nightlord.png);
+}
+.shadower {
+    background-image: url(/images/init/shadower.png);
+}
+.dualblade {
+    background-image: url(/images/init/dualblade.png);
+}
+.viper {
+    background-image: url(/images/init/viper.png);
+}
+.captain {
+    background-image: url(/images/init/captain.png);
+}
+.cannonmaster {
+    background-image: url(/images/init/cannonmaster.png);
+}
+
+.clickArea {
+    width: 70%;
+    height: 60%;
+
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    
+    pointer-events: all;
+}

@@ -2,16 +2,22 @@ import React, { useEffect, useLayoutEffect, useState } from 'react';
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../../compornents/Header/header";
-import Footer from "../../compornents/Footer/footer"
+import { useRouter } from "next/router";
+import Sidebar from "../../compornents/Sidebar";
 
-const Index = () => {
+const Adventurer = (props) => {
+    const router = useRouter();
+    
+    let number = router.query.num;
+    number = number == undefined ? 0 : parseInt(number);
+    
     const [job, setJob] = useState("");
-    const [num, setNum] = useState(0);
+    const [num, setNum] = useState(number);
 
     const jobArr = [
         "hero", 
-        "darknight", 
         "paladine",
+        "darknight", 
         "arkmagetc",
         "arkmagefp",
         "bishop",
@@ -48,6 +54,7 @@ const Index = () => {
     ]
 
     useEffect(() => {
+        console.log(num)
         setJob(jobArr[num]);
 
         let characterImg = document.querySelector(".character__img");
@@ -128,9 +135,9 @@ const Index = () => {
                 <div className="character__bg bg__hero"></div>
                 <div className="character__bg bg__paladine"></div>
                 <div className="character__bg bg__darknight"></div>
-                <div className="character__bg bg__bishop"></div>
                 <div className="character__bg bg__arkmagetc"></div>
                 <div className="character__bg bg__arkmagefp"></div>
+                <div className="character__bg bg__bishop"></div>
                 <div className="character__bg bg__bowmaster"></div>
                 <div className="character__bg bg__marks"></div>
                 <div className="character__bg bg__pathfinder"></div>
@@ -141,29 +148,7 @@ const Index = () => {
                 <div className="character__bg bg__captain"></div>
                 <div className="character__bg bg__cannonmaster"></div>
                 <div className="character__rect"></div>
-                <ul className="character__sidebar">
-                    <li className="character__group character__group__active pointer">
-                        <Link href="/group/Adventurer"><a href="#">모험가</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Cygnus"><a href="#">시그너스</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Resistance"><a href="#">레지스탕스</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Hero"><a href="#">영웅</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Grandis"><a href="#">그란디스</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Zero"><a href="#">제로</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Kinesis"><a href="#">키네시스</a></Link>
-                    </li>
-                </ul>
+                <Sidebar title="group" />
                 <div className="character__main">
                     <div className="character__stats">
                         <div className="character__name"></div>
@@ -186,8 +171,8 @@ const Index = () => {
                     <div className="character__container">
                         <ul className="character d-flex">
                             <li onClick={() => setNum(0)} className="hero"></li>
-                            <li onClick={() => setNum(1)} className="darknight"></li>
-                            <li onClick={() => setNum(2)} className="paladine"></li>
+                            <li onClick={() => setNum(1)} className="paladine"></li>
+                            <li onClick={() => setNum(2)} className="darknight"></li>
                             <li onClick={() => setNum(3)} className="arkmagetc"></li>      
                             <li onClick={() => setNum(4)} className="arkmagefp"></li>
                             <li onClick={() => setNum(5)} className="bishop"></li>
@@ -209,4 +194,4 @@ const Index = () => {
     );
 };
 
-export default Index;
+export default Adventurer;
