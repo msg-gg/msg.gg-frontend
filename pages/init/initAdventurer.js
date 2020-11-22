@@ -18,13 +18,11 @@ const onMouseLeave = e => {
     jobImage.style.height = "370px";
 }
 
-const a = () => {
-    alert("asd");
-}
-
-
 const Index = (props) => {
+    const [num, setNum] = useState(0);
+
     useEffect(() => {
+        console.log(num)
         document.querySelector("#__next").style.backgroundImage = `url(../../images/background/adventurer.png)`
 
         let adventurer = document.querySelectorAll(".job__group");
@@ -45,27 +43,11 @@ const Index = (props) => {
         })
 
         let initJobGroup = document.querySelector(".init__job__group");
-        let flag = false;
-        let startX = 0;
-        let translateX = 0;
-        initJobGroup.addEventListener("mousedown", (e) => {
-            flag = true;
-            startX = e.clientX;
-        })
-
-        window.addEventListener("mousemove", (e) => {
-            if(!flag) return;
-            // let x =  -  > 0 ? 0 : e.clientX - startX < initJobGroup.width ? initJobGroup.width : e.clientX - startX;
-            if(startX > e.clientX)
-                translateX -= 40;
-            else 
-                translateX += 40;
-            initJobGroup.style.transform = `translateX(${translateX}px)`
-        })
+        let width = adventurer[0].offsetWidth;    
         
-        window.addEventListener("mouseup", () => {
-            flag = false;
-        })
+        initJobGroup.style.transition = ".5s";
+
+        initJobGroup.style.transform = `translateX(-${width * num}px)`;
     })
 
     return (
@@ -136,8 +118,20 @@ const Index = (props) => {
                             </div>
                         </div>
                         <div className="job__group pirate flex-center">
+                            <div className="hero" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 0 } }}><div className="clickArea"></div></Link>
+                            </div>
+                            <div className="paladine" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 1 } }}><div className="clickArea"></div></Link>
+
+                            </div>
+                            <div className="darknight" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 2 } }}><div className="clickArea"></div></Link>
+                            </div>
                         </div>
                     </div>
+                    <img id="prev-btn" src="../../images/left-button.png" onClick={()=>setNum(num - 1 < 0 ? 0 : num - 1)} alt=""/>
+                    <img id="next-btn" src="../../images/right-button.png" onClick={()=>setNum(num + 1 > 4 ? 4 : num + 1)} alt=""/>
                 </div>
             </div>
         </div>

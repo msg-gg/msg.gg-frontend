@@ -28,14 +28,11 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/group/Adventurer.js"
-<<<<<<< HEAD
     ],
     "/init/initAdventurer": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/init/initAdventurer.js"
-=======
->>>>>>> origin
     ]
   },
   "ampFirstPages": []

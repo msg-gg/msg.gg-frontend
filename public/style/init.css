@@ -8,7 +8,7 @@
 
     position: absolute;
     left: 50vw;
-    top: 50vh;
+    top: 52vh;
     transform: translate(-50%, -50%);
 
     display: flex;
@@ -19,10 +19,10 @@
     display: flex;
     justify-content: center;
 }
-.init__job__title img { height: 230px; transform: translateX(10px); }
+.init__job__title img { height: 230px; transform: translate(10px, 50px); }
 
 .init__job__group { width: 500%; }
-.job__group { width: calc(100% / 5); height: 500px; padding-bottom: 20vh; }
+.job__group { width: calc(100% / 5); height: 500px; padding-bottom: 5vh; }
 .job__group > div {
     width: 350px;
     height: 370px;
@@ -34,6 +34,24 @@
     position: relative;
     z-index: 1000;
     pointer-events: none;
+}
+
+#prev-btn {
+    width: 200px;
+    
+    position: absolute;
+    top: 35vh;
+
+    cursor: pointer;
+}
+
+#next-btn {
+    width: 200px;
+    
+    position: absolute;
+    right: 0; top: 35vh;
+
+    cursor: pointer;
 }
 
 .hero {
