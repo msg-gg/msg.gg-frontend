@@ -2,19 +2,28 @@ import React, { useEffect, useState } from 'react';
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../../compornents/Header/header";
-import Footer from "../../compornents/Footer/footer"
+import { useRouter } from "next/router";
+import Sidebar from "../../compornents/Sidebar";
+import Json from "../../Json/zero/job.json";
+console.log(Json)
 
-const Index = () => {
+const Zero = (props) => {
+    const router = useRouter();
+    
+    let number = router.query.num;
+    number = number == undefined ? 0 : parseInt(number);
+    
     const [job, setJob] = useState("");
-    const [num, setNum] = useState(0);
+    const [num, setNum] = useState(number);
 
     const jobArr = [
         "zero"
     ]
 
-    const ratio = [
-        4.50, 4.08, 3.59, 3.47, 3.43, 3.41, 3.41, 3.37, 3.36, 3.35, 3.34, 3.33, 3.09, 2.98
-    ];
+    const { zero } = Json
+
+    const data = [];
+    data.push(zero);
 
     const server = [
         { en : "reboot", ko : "리부트" },
@@ -34,6 +43,7 @@ const Index = () => {
     ]
 
     useEffect(() => {
+        console.log(num)
         setJob(jobArr[num]);
 
         let characterImg = document.querySelector(".character__img");
@@ -49,18 +59,17 @@ const Index = () => {
         characterBg[num].style.opacity = "1";
         
         serverArea.innerHTML = "";
-
-        let max = ratio[0];
-        
-        server.forEach((world, i) => {
+      
+        data[num].forEach((world, i) => {
             let tr = document.createElement("tr");
-            let width = (100 * ratio[i]) / max; 
+            let max = parseFloat(data[num][0].ratio.split("%"));
+            let width = (100 * parseFloat(world.ratio.split("%"))) / max; 
             tr.innerHTML = `
-                            <td>${i + 1} </td>
-                            <td><img className="server__image" style="height: 1.8vh; margin-right: .5em;" src="../../images/world/${world.en}.gif" alt=""/> ${world.ko}</td>
+                            <td>${world.ranking} </td>
+                            <td><img className="server__image" style="height: 1.8vh; margin-right: .5em;" src="${world.worldImg}" alt=""/> ${world.world}</td>
                             <td>
                                 <div class="progress" style="min-width: 180px;" >
-                                    <div class="progress-bar" role="progressbar" style="width: ${width}%;">${ratio[i]}%</div>
+                                    <div class="progress-bar" role="progressbar" style="width: ${width}%;">${world.ratio}</div>
                                 </div>
                             </td>`;
             serverArea.appendChild(tr)
@@ -80,7 +89,7 @@ const Index = () => {
         characterSelecter.style.transition = ".5s";
 
         let oneBlock = 0;
-        let translateX = oneBlock;
+        let translateX = oneBlock
         
         characterSelecter.style.transform = `translateX(${translateX}px)`;
 
@@ -88,20 +97,15 @@ const Index = () => {
             characterImg.style.transition = ".8s";
             characterImg.style.width = "110vh";
             characterImg.style.height = "110vh";
+            if(job == 'hero') characterImg.style.width = "150vh"; 
+            if(job == 'pathfinder') { characterImg.style.width = "142vh"; characterImg.style.height = "142vh"; }
+            if(job == 'darknight') { characterImg.style.width = "142vh"; characterImg.style.height = "142vh"; }
         
             characterRect.style.transition = "1s";
             characterRect.style.width = "30%";
             characterRect.style.left = "20%";
         }, 100)
     })
-    
-    var background = {
-        backgroundImage: `url(../../images/background/${job}.png)`
-    }
-
-    var characterImg = {
-        backgroundImage: `url(../../images/job/${job}.png)`,
-    }
     
     return (
         <div>
@@ -119,29 +123,7 @@ const Index = () => {
             <div className="character__wrap">
                 <div className="character__bg bg__zero"></div>
                 <div className="character__rect"></div>
-                <ul className="character__sidebar">
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Adventurer"><a href="#">모험가</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Cygnus"><a href="#">시그너스</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Resistance"><a href="#">레지스탕스</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Hero"><a href="#">영웅</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Grandis"><a href="#">그란디스</a></Link>
-                    </li>
-                    <li className="character__group character__group__active pointer">
-                        <Link href="/group/Zero"><a href="#">제로</a></Link>
-                    </li>
-                    <li className="character__group character__group__none pointer">
-                        <Link href="/group/Kinesis"><a href="#">키네시스</a></Link>
-                    </li>
-                </ul>
+                <Sidebar title="group" />
                 <div className="character__main">
                     <div className="character__stats">
                         <div className="character__name"></div>
@@ -172,4 +154,4 @@ const Index = () => {
         </div>
     );
 };
-export default Index;
+export default Zero;

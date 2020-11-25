@@ -1,0 +1,88 @@
+{
+    "kinesis": [
+		{
+			"ranking": "1",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot2.gif",
+			"world": "리부트2",
+			"ratio": "3.10%"
+		},
+		{
+			"ranking": "2",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot.gif",
+			"world": "리부트",
+			"ratio": "2.99%"
+		},
+		{
+			"ranking": "3",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_arcane.gif",
+			"world": "아케인",
+			"ratio": "2.00%"
+		},
+		{
+			"ranking": "4",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_aurora.gif",
+			"world": "오로라",
+			"ratio": "1.93%"
+		},
+		{
+			"ranking": "5",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_enosis.gif",
+			"world": "이노시스",
+			"ratio": "1.90%"
+		},
+		{
+			"ranking": "6",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_red.gif",
+			"world": "레드",
+			"ratio": "1.84%"
+		},
+		{
+			"ranking": "7",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_luna.gif",
+			"world": "루나",
+			"ratio": "1.83%"
+		},
+		{
+			"ranking": "8",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_bera.gif",
+			"world": "베라",
+			"ratio": "1.82%"
+		},
+		{
+			"ranking": "9",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_nova.gif",
+			"world": "노바",
+			"ratio": "1.80%"
+		},
+		{
+			"ranking": "10",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_croa.gif",
+			"world": "크로아",
+			"ratio": "1.80%"
+		},
+		{
+			"ranking": "11",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_scania.gif",
+			"world": "스카니아",
+			"ratio": "1.80%"
+		},
+		{
+			"ranking": "12",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_elysium.gif",
+			"world": "엘리시움",
+			"ratio": "1.79%"
+		},
+		{
+			"ranking": "13",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_zenith.gif",
+			"world": "제니스",
+			"ratio": "1.76%"
+		},
+		{
+			"ranking": "14",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_union.gif",
+			"world": "유니온",
+			"ratio": "1.76%"
+		}
+	]
+}

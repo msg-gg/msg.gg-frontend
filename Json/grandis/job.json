@@ -1,0 +1,604 @@
+{
+    "kaiser": [
+		{
+			"ranking": "1",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot.gif",
+			"world": "리부트",
+			"ratio": "2.38%"
+		},
+		{
+			"ranking": "2",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot2.gif",
+			"world": "리부트2",
+			"ratio": "2.34%"
+		},
+		{
+			"ranking": "3",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_enosis.gif",
+			"world": "이노시스",
+			"ratio": "1.94%"
+		},
+		{
+			"ranking": "4",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_aurora.gif",
+			"world": "오로라",
+			"ratio": "1.77%"
+		},
+		{
+			"ranking": "5",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_croa.gif",
+			"world": "크로아",
+			"ratio": "1.67%"
+		},
+		{
+			"ranking": "6",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_arcane.gif",
+			"world": "아케인",
+			"ratio": "1.60%"
+		},
+		{
+			"ranking": "7",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_red.gif",
+			"world": "레드",
+			"ratio": "1.60%"
+		},
+		{
+			"ranking": "8",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_union.gif",
+			"world": "유니온",
+			"ratio": "1.48%"
+		},
+		{
+			"ranking": "9",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_bera.gif",
+			"world": "베라",
+			"ratio": "1.45%"
+		},
+		{
+			"ranking": "10",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_nova.gif",
+			"world": "노바",
+			"ratio": "1.44%"
+		},
+		{
+			"ranking": "11",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_elysium.gif",
+			"world": "엘리시움",
+			"ratio": "1.41%"
+		},
+		{
+			"ranking": "12",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_scania.gif",
+			"world": "스카니아",
+			"ratio": "1.40%"
+		},
+		{
+			"ranking": "13",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_zenith.gif",
+			"world": "제니스",
+			"ratio": "1.38%"
+		},
+		{
+			"ranking": "14",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_luna.gif",
+			"world": "루나",
+			"ratio": "1.36%"
+		}
+    ],
+    "cadena": [
+		{
+			"ranking": "1",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_nova.gif",
+			"world": "노바",
+			"ratio": "1.84%"
+		},
+		{
+			"ranking": "2",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot.gif",
+			"world": "리부트",
+			"ratio": "1.80%"
+		},
+		{
+			"ranking": "3",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot2.gif",
+			"world": "리부트2",
+			"ratio": "1.67%"
+		},
+		{
+			"ranking": "4",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_aurora.gif",
+			"world": "오로라",
+			"ratio": "1.57%"
+		},
+		{
+			"ranking": "5",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_elysium.gif",
+			"world": "엘리시움",
+			"ratio": "1.51%"
+		},
+		{
+			"ranking": "6",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_luna.gif",
+			"world": "루나",
+			"ratio": "1.51%"
+		},
+		{
+			"ranking": "7",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_red.gif",
+			"world": "레드",
+			"ratio": "1.46%"
+		},
+		{
+			"ranking": "8",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_croa.gif",
+			"world": "크로아",
+			"ratio": "1.46%"
+		},
+		{
+			"ranking": "9",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_enosis.gif",
+			"world": "이노시스",
+			"ratio": "1.44%"
+		},
+		{
+			"ranking": "10",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_bera.gif",
+			"world": "베라",
+			"ratio": "1.44%"
+		},
+		{
+			"ranking": "11",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_scania.gif",
+			"world": "스카니아",
+			"ratio": "1.41%"
+		},
+		{
+			"ranking": "12",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_arcane.gif",
+			"world": "아케인",
+			"ratio": "1.38%"
+		},
+		{
+			"ranking": "13",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_union.gif",
+			"world": "유니온",
+			"ratio": "1.32%"
+		},
+		{
+			"ranking": "14",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_zenith.gif",
+			"world": "제니스",
+			"ratio": "1.17%"
+		}
+    ],
+    "angelicbuster": [
+		{
+			"ranking": "1",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot2.gif",
+			"world": "리부트2",
+			"ratio": "3.38%"
+		},
+		{
+			"ranking": "2",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot.gif",
+			"world": "리부트",
+			"ratio": "3.25%"
+		},
+		{
+			"ranking": "3",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_luna.gif",
+			"world": "루나",
+			"ratio": "2.86%"
+		},
+		{
+			"ranking": "4",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_elysium.gif",
+			"world": "엘리시움",
+			"ratio": "2.68%"
+		},
+		{
+			"ranking": "5",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_croa.gif",
+			"world": "크로아",
+			"ratio": "2.64%"
+		},
+		{
+			"ranking": "6",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_nova.gif",
+			"world": "노바",
+			"ratio": "2.63%"
+		},
+		{
+			"ranking": "7",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_enosis.gif",
+			"world": "이노시스",
+			"ratio": "2.62%"
+		},
+		{
+			"ranking": "8",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_aurora.gif",
+			"world": "오로라",
+			"ratio": "2.58%"
+		},
+		{
+			"ranking": "9",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_scania.gif",
+			"world": "스카니아",
+			"ratio": "2.53%"
+		},
+		{
+			"ranking": "10",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_bera.gif",
+			"world": "베라",
+			"ratio": "2.52%"
+		},
+		{
+			"ranking": "11",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_red.gif",
+			"world": "레드",
+			"ratio": "2.29%"
+		},
+		{
+			"ranking": "12",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_union.gif",
+			"world": "유니온",
+			"ratio": "2.20%"
+		},
+		{
+			"ranking": "13",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_zenith.gif",
+			"world": "제니스",
+			"ratio": "2.18%"
+		},
+		{
+			"ranking": "14",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_arcane.gif",
+			"world": "아케인",
+			"ratio": "2.16%"
+		}
+    ],
+    "adele": [
+		{
+			"ranking": "1",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_croa.gif",
+			"world": "크로아",
+			"ratio": "11.98%"
+		},
+		{
+			"ranking": "2",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_bera.gif",
+			"world": "베라",
+			"ratio": "11.25%"
+		},
+		{
+			"ranking": "3",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_scania.gif",
+			"world": "스카니아",
+			"ratio": "11.23%"
+		},
+		{
+			"ranking": "4",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_luna.gif",
+			"world": "루나",
+			"ratio": "10.80%"
+		},
+		{
+			"ranking": "5",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_elysium.gif",
+			"world": "엘리시움",
+			"ratio": "10.69%"
+		},
+		{
+			"ranking": "6",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_aurora.gif",
+			"world": "오로라",
+			"ratio": "10.18%"
+		},
+		{
+			"ranking": "7",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_enosis.gif",
+			"world": "이노시스",
+			"ratio": "9.75%"
+		},
+		{
+			"ranking": "8",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_zenith.gif",
+			"world": "제니스",
+			"ratio": "9.65%"
+		},
+		{
+			"ranking": "9",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_union.gif",
+			"world": "유니온",
+			"ratio": "9.48%"
+		},
+		{
+			"ranking": "10",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot2.gif",
+			"world": "리부트2",
+			"ratio": "9.46%"
+		},
+		{
+			"ranking": "11",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_arcane.gif",
+			"world": "아케인",
+			"ratio": "9.31%"
+		},
+		{
+			"ranking": "12",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot.gif",
+			"world": "리부트",
+			"ratio": "9.30%"
+		},
+		{
+			"ranking": "13",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_red.gif",
+			"world": "레드",
+			"ratio": "8.76%"
+		},
+		{
+			"ranking": "14",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_nova.gif",
+			"world": "노바",
+			"ratio": "8.48%"
+		}
+    ],
+    "illium": [
+		{
+			"ranking": "1",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot2.gif",
+			"world": "리부트2",
+			"ratio": "0.54%"
+		},
+		{
+			"ranking": "2",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_nova.gif",
+			"world": "노바",
+			"ratio": "0.53%"
+		},
+		{
+			"ranking": "3",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_enosis.gif",
+			"world": "이노시스",
+			"ratio": "0.47%"
+		},
+		{
+			"ranking": "4",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_union.gif",
+			"world": "유니온",
+			"ratio": "0.46%"
+		},
+		{
+			"ranking": "5",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_zenith.gif",
+			"world": "제니스",
+			"ratio": "0.45%"
+		},
+		{
+			"ranking": "6",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot.gif",
+			"world": "리부트",
+			"ratio": "0.42%"
+		},
+		{
+			"ranking": "7",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_red.gif",
+			"world": "레드",
+			"ratio": "0.39%"
+		},
+		{
+			"ranking": "8",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_arcane.gif",
+			"world": "아케인",
+			"ratio": "0.38%"
+		},
+		{
+			"ranking": "9",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_bera.gif",
+			"world": "베라",
+			"ratio": "0.38%"
+		},
+		{
+			"ranking": "10",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_luna.gif",
+			"world": "루나",
+			"ratio": "0.38%"
+		},
+		{
+			"ranking": "11",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_elysium.gif",
+			"world": "엘리시움",
+			"ratio": "0.37%"
+		},
+		{
+			"ranking": "12",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_croa.gif",
+			"world": "크로아",
+			"ratio": "0.35%"
+		},
+		{
+			"ranking": "13",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_scania.gif",
+			"world": "스카니아",
+			"ratio": "0.33%"
+		},
+		{
+			"ranking": "14",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_aurora.gif",
+			"world": "오로라",
+			"ratio": "0.32%"
+		}
+    ],
+    "ark": [
+		{
+			"ranking": "1",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_nova.gif",
+			"world": "노바",
+			"ratio": "4.47%"
+		},
+		{
+			"ranking": "2",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_aurora.gif",
+			"world": "오로라",
+			"ratio": "4.21%"
+		},
+		{
+			"ranking": "3",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_arcane.gif",
+			"world": "아케인",
+			"ratio": "4.07%"
+		},
+		{
+			"ranking": "4",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_scania.gif",
+			"world": "스카니아",
+			"ratio": "4.07%"
+		},
+		{
+			"ranking": "5",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_enosis.gif",
+			"world": "이노시스",
+			"ratio": "4.05%"
+		},
+		{
+			"ranking": "6",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_luna.gif",
+			"world": "루나",
+			"ratio": "3.93%"
+		},
+		{
+			"ranking": "7",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_elysium.gif",
+			"world": "엘리시움",
+			"ratio": "3.90%"
+		},
+		{
+			"ranking": "8",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_red.gif",
+			"world": "레드",
+			"ratio": "3.88%"
+		},
+		{
+			"ranking": "9",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot.gif",
+			"world": "리부트",
+			"ratio": "3.77%"
+		},
+		{
+			"ranking": "10",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_bera.gif",
+			"world": "베라",
+			"ratio": "3.70%"
+		},
+		{
+			"ranking": "11",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_croa.gif",
+			"world": "크로아",
+			"ratio": "3.65%"
+		},
+		{
+			"ranking": "12",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot2.gif",
+			"world": "리부트2",
+			"ratio": "3.61%"
+		},
+		{
+			"ranking": "13",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_zenith.gif",
+			"world": "제니스",
+			"ratio": "3.39%"
+		},
+		{
+			"ranking": "14",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_union.gif",
+			"world": "유니온",
+			"ratio": "3.19%"
+		}
+    ],
+    "hoyoung": [
+		{
+			"ranking": "1",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_croa.gif",
+			"world": "크로아",
+			"ratio": "2.04%"
+		},
+		{
+			"ranking": "2",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_enosis.gif",
+			"world": "이노시스",
+			"ratio": "1.97%"
+		},
+		{
+			"ranking": "3",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_bera.gif",
+			"world": "베라",
+			"ratio": "1.96%"
+		},
+		{
+			"ranking": "4",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot2.gif",
+			"world": "리부트2",
+			"ratio": "1.87%"
+		},
+		{
+			"ranking": "5",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_arcane.gif",
+			"world": "아케인",
+			"ratio": "1.87%"
+		},
+		{
+			"ranking": "6",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_luna.gif",
+			"world": "루나",
+			"ratio": "1.86%"
+		},
+		{
+			"ranking": "7",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_reboot.gif",
+			"world": "리부트",
+			"ratio": "1.85%"
+		},
+		{
+			"ranking": "8",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_elysium.gif",
+			"world": "엘리시움",
+			"ratio": "1.84%"
+		},
+		{
+			"ranking": "9",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_scania.gif",
+			"world": "스카니아",
+			"ratio": "1.79%"
+		},
+		{
+			"ranking": "10",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_union.gif",
+			"world": "유니온",
+			"ratio": "1.77%"
+		},
+		{
+			"ranking": "11",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_aurora.gif",
+			"world": "오로라",
+			"ratio": "1.76%"
+		},
+		{
+			"ranking": "12",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_nova.gif",
+			"world": "노바",
+			"ratio": "1.68%"
+		},
+		{
+			"ranking": "13",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_zenith.gif",
+			"world": "제니스",
+			"ratio": "1.66%"
+		},
+		{
+			"ranking": "14",
+			"worldImg": "https://kr-cdn.maple.gg/images/maplestory/world/ico_world_red.gif",
+			"world": "레드",
+			"ratio": "1.60%"
+		}
+	]
+}
