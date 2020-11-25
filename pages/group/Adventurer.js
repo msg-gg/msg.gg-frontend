@@ -4,6 +4,8 @@ import Link from "next/link";
 import Header from "../../compornents/Header/header";
 import { useRouter } from "next/router";
 import Sidebar from "../../compornents/Sidebar";
+import Json from "../../Json/adventruer/job.json";
+console.log(Json)
 
 const Adventurer = (props) => {
     const router = useRouter();
@@ -31,10 +33,10 @@ const Adventurer = (props) => {
         "captain",
         "cannonmaster"
     ]
+    const { hero, paladine, darknight, arkmagetc, arkmagefp, bishop, bowmaster, marks, pathfinder, nightlord, shadower, dualblade, viper, captain, cannonmaster } = Json
 
-    const ratio = [
-        4.50, 4.08, 3.59, 3.47, 3.43, 3.41, 3.41, 3.37, 3.36, 3.35, 3.34, 3.33, 3.09, 2.98
-    ];
+    const data = [];
+    data.push(hero, paladine, darknight, arkmagetc, arkmagefp, bishop, bowmaster, marks, pathfinder, nightlord, shadower, dualblade, viper, captain, cannonmaster);
 
     const server = [
         { en : "reboot", ko : "리부트" },
@@ -71,17 +73,17 @@ const Adventurer = (props) => {
         
         serverArea.innerHTML = "";
 
-        let max = ratio[0];
         
-        server.forEach((world, i) => {
+        data[num].forEach((world, i) => {
             let tr = document.createElement("tr");
-            let width = (100 * ratio[i]) / max; 
+            let max = parseFloat(data[num][0].ratio.split("%"));
+            let width = (100 * parseFloat(world.ratio.split("%"))) / max; 
             tr.innerHTML = `
-                            <td>${i + 1} </td>
-                            <td><img className="server__image" style="height: 1.8vh; margin-right: .5em;" src="../../images/world/${world.en}.gif" alt=""/> ${world.ko}</td>
+                            <td>${world.ranking} </td>
+                            <td><img className="server__image" style="height: 1.8vh; margin-right: .5em;" src="${world.worldImg}" alt=""/> ${world.world}</td>
                             <td>
                                 <div class="progress" style="min-width: 180px;" >
-                                    <div class="progress-bar" role="progressbar" style="width: ${width}%;">${ratio[i]}%</div>
+                                    <div class="progress-bar" role="progressbar" style="width: ${width}%;">${world.ratio}</div>
                                 </div>
                             </td>`;
             serverArea.appendChild(tr)

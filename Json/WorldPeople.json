@@ -1,0 +1,118 @@
+{
+	"level210": [
+		{
+			"world": "루나",
+			"people": "17.9%"
+		},
+		{
+			"world": "스카니아",
+			"people": "16.9%"
+		},
+		{
+			"world": "엘리시움",
+			"people": "14.4%"
+		},
+		{
+			"world": "크로아",
+			"people": "14%"
+		},
+		{
+			"world": "베라",
+			"people": "7.7%"
+		},
+		{
+			"world": "리부트",
+			"people": "7.2%"
+		},
+		{
+			"world": "오로라",
+			"people": "6.7%"
+		},
+		{
+			"world": "레드",
+			"people": "3.8%"
+		},
+		{
+			"world": "이노시스",
+			"people": "2.5%"
+		},
+		{
+			"world": "유니온",
+			"people": "2.5%"
+		},
+		{
+			"world": "제니스",
+			"people": "2.3%"
+		},
+		{
+			"world": "아케인",
+			"people": "1.5%"
+		},
+		{
+			"world": "리부트2",
+			"people": "1.5%"
+		},
+		{
+			"world": "노바",
+			"people": "1.1%"
+		}
+	],
+	"level240": [
+		{
+			"world": "루나",
+			"people": "17.1%"
+		},
+		{
+			"world": "스카니아",
+			"people": "15.5%"
+		},
+		{
+			"world": "크로아",
+			"people": "15%"
+		},
+		{
+			"world": "엘리시움",
+			"people": "13.7%"
+		},
+		{
+			"world": "리부트",
+			"people": "11.3%"
+		},
+		{
+			"world": "베라",
+			"people": "7.9%"
+		},
+		{
+			"world": "오로라",
+			"people": "4.7%"
+		},
+		{
+			"world": "레드",
+			"people": "3%"
+		},
+		{
+			"world": "유니온",
+			"people": "2.6%"
+		},
+		{
+			"world": "리부트2",
+			"people": "2.5%"
+		},
+		{
+			"world": "제니스",
+			"people": "2.4%"
+		},
+		{
+			"world": "이노시스",
+			"people": "2.3%"
+		},
+		{
+			"world": "아케인",
+			"people": "1.1%"
+		},
+		{
+			"world": "노바",
+			"people": "0.7%"
+		}
+	]
+}
