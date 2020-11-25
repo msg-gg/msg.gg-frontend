@@ -54,6 +54,8 @@
     cursor: pointer;
 }
 
+/* adventurer */
+
 .hero {
     background-image: url(/images/init/hero.png);
 }
@@ -98,6 +100,108 @@
 }
 .cannonmaster {
     background-image: url(/images/init/cannonmaster.png);
+}
+
+/* cygnus */
+
+.soulMaster {
+    background-image: url(/images/init/soulMaster.png);
+}
+.mikhail {
+    background-image: url(/images/init/mikhail.png);
+}
+.flameWizard {
+    background-image: url(/images/init/flameWizard.png);
+}
+.windBreaker {
+    background-image: url(/images/init/windBreaker.png);
+}
+.nightWalker {
+    background-image: url(/images/init/nightWalker.png);
+}
+.striker {
+    background-image: url(/images/init/striker.png);
+}
+
+/* resistance */
+
+.mecanic {
+    background-image: url(/images/init/mecanic.png);
+}
+.battleMage {
+    background-image: url(/images/init/battleMage.png);
+}
+.blaster {
+    background-image: url(/images/init/blaster.png);
+}
+.wildHunter {
+    background-image: url(/images/init/wildHunter.png);
+}
+.xenon {
+    background-image: url(/images/init/xenon.png);
+}
+.demonslayer {
+    background-image: url(/images/init/demonslayer.png);
+}
+.demonavenger {
+    background-image: url(/images/init/demonavenger.png);
+}
+
+/* heroes */
+
+.aran {
+    background-image: url(/images/init/aran.png);
+}
+.evan {
+    background-image: url(/images/init/evan.png);
+}
+.luminous {
+    background-image: url(/images/init/luminous.png);
+}
+.mercedes {
+    background-image: url(/images/init/mercedes.png);
+}
+.phantom {
+    background-image: url(/images/init/phantom.png);
+}
+.shade {
+    background-image: url(/images/init/shade.png);
+}
+
+/* grandis */
+
+.kaiser {
+    background-image: url(/images/init/kaiser.png);
+}
+.cadena {
+    background-image: url(/images/init/cadena.png);
+}
+.angelicbuster {
+    background-image: url(/images/init/angelicbuster.png);
+}
+.adele {
+    background-image: url(/images/init/adele.png);
+}
+.illium {
+    background-image: url(/images/init/illium.png);
+}
+.ark {
+    background-image: url(/images/init/ark.png);
+}
+.hoyoung {
+    background-image: url(/images/init/hoyoung.png);
+}
+
+/* zero */
+
+.zero {
+    background-image: url(/images/init/zero.png);
+}
+
+/* kinesis */
+
+.kinesis {
+    background-image: url(/images/init/kinesis.png);
 }
 
 .clickArea {
