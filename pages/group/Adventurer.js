@@ -33,6 +33,7 @@ const Adventurer = (props) => {
         "captain",
         "cannonmaster"
     ]
+
     const { hero, paladine, darknight, arkmagetc, arkmagefp, bishop, bowmaster, marks, pathfinder, nightlord, shadower, dualblade, viper, captain, cannonmaster } = Json
 
     const data = [];
@@ -86,7 +87,7 @@ const Adventurer = (props) => {
                                     <div class="progress-bar" role="progressbar" style="width: ${width}%;">${world.ratio}</div>
                                 </div>
                             </td>`;
-            serverArea.appendChild(tr)
+            serverArea.appendChild(tr);
         })
 
         characterImg.style.backgroundImage = `url(../../images/job/${job}.png)`;
@@ -150,7 +151,7 @@ const Adventurer = (props) => {
                 <div className="character__bg bg__captain"></div>
                 <div className="character__bg bg__cannonmaster"></div>
                 <div className="character__rect"></div>
-                <Sidebar title="group" />
+                <Sidebar title="group" group="adventruer" />
                 <div className="character__main">
                     <div className="character__stats">
                         <div className="character__name"></div>

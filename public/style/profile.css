@@ -1,0 +1,63 @@
+.back__btn {
+    width: 267px;
+    height: 122px;
+
+    background-image: url(/images/profile/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    left: 2vw; top: 90px;
+}
+
+.profile__sidebar {
+    width: 370px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: -30px;
+    top: 150px;
+    z-index: 9;
+
+    padding-top: 30px;
+}
+.profile__sidebar__el {
+    width: 276px;
+    height: 138px;
+
+    background-repeat: no-repeat;
+    background-position: left;
+
+    color: #fff;
+
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+.profile__sidebar__el__active::before {
+    width: 276px;
+    height: 138px;
+
+    background-image: url(/images/profile/sidebar_background.png);
+    background-size: cover;
+
+    position: absolute;
+    left: 0;
+    top: 21px;
+    z-index: -1;
+
+    content: "";
+}
+.profile__sidebar__el a {
+    width: 75%;
+    height: 100%;
+}
+
+.profile__sidebar__record {
+    background-image: url(/images/profile/record.png);
+}
+.profile__sidebar__information {
+    background-image: url(/images/profile/information.png);
+}

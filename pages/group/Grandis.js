@@ -135,7 +135,7 @@ const Grandis = (props) => {
                 <div className="character__bg bg__ark"></div>
                 <div className="character__bg bg__hoyoung"></div>
                 <div className="character__rect"></div>
-                <Sidebar title="group" />
+                <Sidebar title="group" group="grandis" />
                 <div className="character__main">
                     <div className="character__stats">
                         <div className="character__name"></div>

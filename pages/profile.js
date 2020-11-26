@@ -1,5 +1,6 @@
 import Header from "../compornents/Header/header";
 import Head from "next/head";
+import Link from "next/link";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import axios from "axios";
@@ -7,7 +8,7 @@ import cheerio from "cheerio";
 
 const Profile = () => {
     const router = useRouter();
-
+    
     async function getHTML() {
         try {
             return await axios.get(`https://maple.gg/u/${router.query.username}`);
@@ -17,13 +18,18 @@ const Profile = () => {
     }
 
     useEffect(() => {
+        if(!router.query.username) return;
+
+        let character = {};
 
         getHTML()
             .then((html) => {
-                
                 const $ = cheerio.load(html.data);
                 
-                if(html.data.length < 30000) return;
+                if(html.data.length < 30000) {
+                    router.push("/");
+                    return;
+                };
                 
                 let profile = {} 
                 
@@ -42,7 +48,13 @@ const Profile = () => {
                 
                 return profile;
             })
-            .then((res) => console.log(res));
+            .then((res) => {
+                character = res;
+                document.querySelector("#__next").style.backgroundImage = `url(../images/profile/background/${character.work}.png)`
+            
+                console.log(character)
+            });
+
     });
 
     return (
@@ -57,6 +69,13 @@ const Profile = () => {
                 ></link>
             </Head>
             <Header></Header>
+            <div className="wrap">
+                <div className="back__btn pointer"></div>
+                <ul className="profile__sidebar">
+                    <li className="profile__sidebar__el profile__sidebar__el__active  profile__sidebar__information pointer"></li>
+                    <li className="profile__sidebar__el  profile__sidebar__record pointer"></li>
+                </ul>
+            </div>
         </div>
     );
 

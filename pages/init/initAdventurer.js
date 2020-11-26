@@ -63,7 +63,7 @@ const Index = (props) => {
             </Head>
             <Header></Header>
             <div className="wrap">
-                <Sidebar title="init" />
+                <Sidebar title="init" group="adventruer" />
                 <div className="init__job">
                     <div className="init__job__title">
                         <img src="../../images/init/adventurer.png" alt=""/>

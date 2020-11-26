@@ -123,7 +123,7 @@ const Kinesis = (props) => {
             <div className="character__wrap">
                 <div className="character__bg bg__kinesis"></div>
                 <div className="character__rect"></div>
-                <Sidebar title="group" />
+                <Sidebar title="group" group="kinesis"  />
                 <div className="character__main">
                     <div className="character__stats">
                         <div className="character__name"></div>
