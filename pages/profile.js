@@ -7,6 +7,8 @@ import axios from "axios";
 import cheerio from "cheerio";
 
 const Profile = () => {
+    let character = {};
+
     const router = useRouter();
     
     async function getHTML() {
@@ -19,8 +21,6 @@ const Profile = () => {
 
     useEffect(() => {
         if(!router.query.username) return;
-
-        let character = {};
 
         getHTML()
             .then((html) => {
@@ -51,8 +51,7 @@ const Profile = () => {
             .then((res) => {
                 character = res;
                 document.querySelector("#__next").style.backgroundImage = `url(../images/profile/background/${character.work}.png)`
-            
-                console.log(character)
+        
             });
 
     });
@@ -75,6 +74,29 @@ const Profile = () => {
                     <li className="profile__sidebar__el profile__sidebar__el__active  profile__sidebar__information pointer"></li>
                     <li className="profile__sidebar__el  profile__sidebar__record pointer"></li>
                 </ul>
+                <div className="profile__main">
+                    <div className="profile flex-center">
+                        <div className="profile__img">
+
+                        </div>
+                        <div className="profile__status pt-5 pl-4">
+                            <div className="profile__text pt-3 flex-column text-white">
+                                <p><span className="pr-2">히그링</span>Lv.230</p>
+                                <div className="d-flex">
+                                    <img className="mt-1 mr-2" src="../../images/world/croa.gif" alt=""/> 
+                                    <p>크로아 | 호영 | 인기도 8</p>
+                                </div>
+                                <p>길드 <span className="pl-2">GitHub</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="profile-button pt-4 flex-center">
+                        <button>즐겨찾기</button>
+                        <button className="ml-3">프로필 사진</button>
+                    </div>
+                    <div className="profile__analysis">
+                    </div>
+                </div>
             </div>
         </div>
     );

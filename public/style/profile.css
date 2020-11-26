@@ -61,3 +61,71 @@
 .profile__sidebar__information {
     background-image: url(/images/profile/information.png);
 }
+
+.profile__main {
+    width: 40vw;
+    height: 70vh;
+
+    position: absolute;
+    right: 0; 
+    top: 15vh;
+}
+
+.profile__img {
+    width: 95px;
+    height: 95px;
+
+    background-image: url(/images/profile/profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile__text > p:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.profile__text > p:first-child > span {
+    font-size: 1.5em;
+}
+
+.profile__text img { width: 22px; height: 22px; }
+.profile__text > div > p {
+    font-size: 1.2em;
+}
+
+.profile__text > p:last-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.profile__text > p:last-child > span {
+    color: #faa;
+}
+
+.profile-button > button { font-weight: bold; }
+.profile-button > button:first-child {
+    background: none;
+
+    color: #fff;
+
+    border: 2px solid #faa;
+    border-radius: 5px;
+    padding: 8px 30px;
+
+    outline: none;
+}
+.profile-button > button:last-child {
+    background: #faa;
+
+    border: 2px solid #faa;
+    border-radius: 5px;
+    padding: 8px 30px;
+
+    outline: none;
+}
+
+
+
+
+
+
+

@@ -34,6 +34,10 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 
 .font-bold { font-weight: bold; }
 .font-lighter { font-weight: lighter; }
