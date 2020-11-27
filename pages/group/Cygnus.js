@@ -103,9 +103,6 @@ const Cygnus = (props) => {
             characterImg.style.transition = ".8s";
             characterImg.style.width = "110vh";
             characterImg.style.height = "110vh";
-            if(job == 'hero') characterImg.style.width = "150vh"; 
-            if(job == 'pathfinder') { characterImg.style.width = "142vh"; characterImg.style.height = "142vh"; }
-            if(job == 'darknight') { characterImg.style.width = "142vh"; characterImg.style.height = "142vh"; }
         
             characterRect.style.transition = "1s";
             characterRect.style.width = "30%";

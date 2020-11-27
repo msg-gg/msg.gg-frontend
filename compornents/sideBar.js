@@ -14,7 +14,7 @@ const sideBar = (props) => {
     });
 
     const group = [
-        "adventruer", 
+        "adventurer", 
         "cygnus",
         "resistance",
         "hero",
