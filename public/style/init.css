@@ -22,7 +22,7 @@
 .init__job__title img { height: 230px; transform: translate(10px, 50px); }
 
 .init__job__group { width: 500%; }
-.job__group { width: calc(100% / 5); height: 500px; padding-bottom: 5vh; }
+.job__group { width: calc(100% / 4); height: 500px; padding-bottom: 5vh; }
 .job__group > div {
     width: 350px;
     height: 370px;

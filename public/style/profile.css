@@ -36,6 +36,9 @@
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     margin-right: 20px;
 }
+.profile__sidebar__el__active {
+    position: relative;
+}
 .profile__sidebar__el__active::before {
     width: 276px;
     height: 138px;
@@ -45,7 +48,7 @@
 
     position: absolute;
     left: 0;
-    top: 21px;
+    top: -12px;
     z-index: -1;
 
     content: "";
@@ -72,12 +75,23 @@
 }
 
 .profile__img {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
 
-    background-image: url(/images/profile/profile.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(128, 128, 128);
+
+    position: relative;
+
+    border: 4px solid #fff;
+    border-radius: 5px;
+
+    overflow: hidden;
+}
+.profile__img img {
+    width: 200px;
+
+    position: absolute;
+    transform: translate(-50px, -40px);
 }
 
 .profile__text > p:first-child {
@@ -123,9 +137,50 @@
     outline: none;
 }
 
+.profile__analysis {
+    width: 400px;
+    height: 600px;
 
+    transform: translate(350px, 0);
+}
 
+.profile__recode {
+    width: 70vw;
+    height: 40vh;
 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.profile__recode > div {
+    width: 450px;
+    height: 450px;
 
+    background-color: rgba(46, 46, 46, 0.5);
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 6px solid rgb(159, 173, 192);
+    border-radius: 50%;
+}
+.profile__recode > div:nth-child(1) { transform: translateX(180px); }
+.profile__recode > div:nth-child(2) { transform: translateX(60px); }
+.profile__recode > div:nth-child(3) { transform: translateX(-60px); }
+.profile__recode > div:nth-child(4) { transform: translateX(-180px); }
+.profile__recode > div > div > div > p {
+    margin: 0 !important;
+}
+
+.achievement h3 { font-size: 1.6em; font-weight: bold; }
+.union h3 { font-size: 1.6em; font-weight: bold; }
+
+.mureung h3, .seed h3 { font-size: 4em; font-weight: bold; }
+.mureung h4, .seed h4 { font-weight: bold; }
 
 
