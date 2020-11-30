@@ -3,8 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/init/Resistance": "pages/init/Resistance.js",
-  "/init/Grandis": "pages/init/Grandis.js",
-  "/init/Cygnus": "pages/init/Cygnus.js",
   "/init/Adventurer": "pages/init/Adventurer.js",
-  "/init/Hero": "pages/init/Hero.js"
+  "/init/Hero": "pages/init/Hero.js",
+  "/init/Grandis": "pages/init/Grandis.js"
 }

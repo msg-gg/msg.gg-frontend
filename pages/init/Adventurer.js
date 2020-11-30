@@ -31,13 +31,13 @@ const Index = (props) => {
             let group = document.querySelectorAll(`.${data.classList[1]} > div`);
             group.forEach((job, i) => {
                 if(i == 0) {
-                    job.style.transform = `translateX(170px)`;
+                    job.style.transform = `translateX(130px)`;
                 } else if(i == 1) {
                     job.style.transform = `translateY(170px)`;
                 } else if(i % 2 != 0 && i != 1) {
-                    job.style.transform = `translate(-${170 * (i - 1)}px, 170px)`;
+                    job.style.transform = `translate(-${130 * (i - 1)}px, 170px)`;
                 } else {
-                    job.style.transform = `translateX(-${170 * (i - 1)}px)`;
+                    job.style.transform = `translateX(-${130 * (i - 1)}px)`;
                 }
             })
         })

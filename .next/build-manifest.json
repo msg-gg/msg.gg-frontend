@@ -29,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/init/Adventurer.js"
     ],
-    "/init/Cygnus": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/init/Cygnus.js"
-    ],
     "/init/Grandis": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
