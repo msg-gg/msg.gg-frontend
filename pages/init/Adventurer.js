@@ -94,39 +94,39 @@ const Index = (props) => {
                             </div>
                         </div>
                         <div className="job__group bowman flex-center">
-                            <div className="hero pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 0 } }}><div className="clickArea"></div></Link>
+                            <div className="bowmaster pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 6 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="paladine pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 1 } }}><div className="clickArea"></div></Link>
+                            <div className="marks pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 7 } }}><div className="clickArea"></div></Link>
 
                             </div>
-                            <div className="darknight pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 2 } }}><div className="clickArea"></div></Link>
+                            <div className="pathfinder pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 8 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>
                         <div className="job__group thief flex-center">
-                            <div className="hero pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 0 } }}><div className="clickArea"></div></Link>
+                            <div className="nightlord pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 9 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="paladine pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 1 } }}><div className="clickArea"></div></Link>
+                            <div className="shadower pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 10 } }}><div className="clickArea"></div></Link>
 
                             </div>
-                            <div className="darknight pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 2 } }}><div className="clickArea"></div></Link>
+                            <div className="dualblade pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 11 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>
                         <div className="job__group pirate flex-center">
-                            <div className="hero pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 0 } }}><div className="clickArea"></div></Link>
+                            <div className="viper pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 12 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="paladine pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 1 } }}><div className="clickArea"></div></Link>
+                            <div className="captain pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 13 } }}><div className="clickArea"></div></Link>
 
                             </div>
-                            <div className="darknight pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 2 } }}><div className="clickArea"></div></Link>
+                            <div className="cannonmaster pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Adventurer`, query: { num: 14 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>
                     </div>
