@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -24,15 +29,40 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/group/Adventurer": [
+    "/init/Adventurer": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/group/Adventurer.js"
+      "static/chunks/pages/init/Adventurer.js"
     ],
-    "/ranking/total/WorldRanking": [
+    "/init/Cygnus": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/ranking/total/WorldRanking.js"
+      "static/chunks/pages/init/Cygnus.js"
+    ],
+    "/init/Grandis": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/init/Grandis.js"
+    ],
+    "/init/Hero": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/init/Hero.js"
+    ],
+    "/init/Kinesis": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/init/Kinesis.js"
+    ],
+    "/init/Resistance": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/init/Resistance.js"
+    ],
+    "/init/Zero": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/init/Zero.js"
     ]
   },
   "ampFirstPages": []
