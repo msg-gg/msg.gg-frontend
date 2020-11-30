@@ -123,6 +123,7 @@ const Profile = () => {
                 document.querySelector("#__next").style.backgroundImage = `url(../images/profile/background/${character.work}.png)`
                 // document.querySelector("#__next").style.backgroundImage = `url(../images/background/login.png)`
                 let imgArea = document.querySelector(".profile__img");
+                imgArea.innerHTML = "";
 
                 let image = new Image();
                 image.src = `${character.image}`;

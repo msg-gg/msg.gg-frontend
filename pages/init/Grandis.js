@@ -22,7 +22,6 @@ const Index = (props) => {
     const [num, setNum] = useState(0);
 
     useEffect(() => {
-        console.log(num)
         document.querySelector("#__next").style.backgroundImage = `url(../../images/background/grandis.png)`
 
         let grandis = document.querySelectorAll(".job__group");
@@ -31,13 +30,13 @@ const Index = (props) => {
             let group = document.querySelectorAll(`.${data.classList[1]} > div`);
             group.forEach((job, i) => {
                 if(i == 0) {
-                    job.style.transform = `translateX(170px)`;
+                    job.style.transform = `translateX(-20px)`;
                 } else if(i == 1) {
-                    job.style.transform = `translateY(170px)`;
+                    job.style.transform = `translate(-180px, 170px)`;
                 } else if(i % 2 != 0 && i != 1) {
                     job.style.transform = `translate(-${170 * (i - 1)}px, 170px)`;
                 } else {
-                    job.style.transform = `translateX(-${170 * (i - 1)}px)`;
+                    job.style.transform = `translateX(-${340 * (i - 1)}px)`;
                 }
             })
         })
@@ -70,31 +69,31 @@ const Index = (props) => {
                     </div>
                     <div className="init__job__group d-flex">
                         <div className="job__group nova flex-center">
-                            <div className="kaiser" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="kaiser pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Grandis`, query: { num: 0 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="cadena" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="cadena pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Grandis`, query: { num: 1 } }}><div className="clickArea"></div></Link>
 
                             </div>
-                            <div className="angelicbuster" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="angelicbuster pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Grandis`, query: { num: 2 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>
                         <div className="job__group lef flex-center">
-                            <div className="adele" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="adele pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Grandis`, query: { num: 3 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="illium" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="illium pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Grandis`, query: { num: 4 } }}><div className="clickArea"></div></Link>
 
                             </div>
-                            <div className="ark" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="ark pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Grandis`, query: { num: 5 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>
                         <div className="job__group anima flex-center">
-                            <div className="hoyoung" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="hoyoung pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Grandis`, query: { num: 6 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>

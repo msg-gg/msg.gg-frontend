@@ -31,13 +31,13 @@ const Index = (props) => {
             let group = document.querySelectorAll(`.${data.classList[1]} > div`);
             group.forEach((job, i) => {
                 if(i == 0) {
-                    job.style.transform = `translateX(170px)`;
+                    job.style.transform = `translateX(100px)`;
                 } else if(i == 1) {
-                    job.style.transform = `translateY(170px)`;
+                    job.style.transform = `translateY(190px)`;
                 } else if(i % 2 != 0 && i != 1) {
-                    job.style.transform = `translate(-${170 * (i - 1)}px, 170px)`;
+                    job.style.transform = `translate(-${100 * (i - 1)}px, 190px)`;
                 } else {
-                    job.style.transform = `translateX(-${170 * (i - 1)}px)`;
+                    job.style.transform = `translateX(-${100 * (i - 1)}px)`;
                 }
             })
         })
@@ -70,23 +70,23 @@ const Index = (props) => {
                     </div>
                     <div className="init__job__group d-flex">
                         <div className="job__group flex-center">
-                            <div className="aran" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="aran pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Hero`, query: { num: 0 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="evan" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="evan pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Hero`, query: { num: 1 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="luminous" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="luminous pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Hero`, query: { num: 2 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="mercedes" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="mercedes pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Hero`, query: { num: 0 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="phantom" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="phantom pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Hero`, query: { num: 1 } }}><div className="clickArea"></div></Link>
 
                             </div>
-                            <div className="shade" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="shade pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Hero`, query: { num: 2 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>

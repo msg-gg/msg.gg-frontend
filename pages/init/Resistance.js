@@ -70,29 +70,28 @@ const Index = (props) => {
                     </div>
                     <div className="init__job__group d-flex">
                         <div className="job__group flex-center">
-                            <div className="blaster" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="mecanic pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Resistance`, query: { num: 0 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="battleMage" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="battleMage pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Resistance`, query: { num: 1 } }}><div className="clickArea"></div></Link>
-
                             </div>
-                            <div className="wildHunter" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="blaster pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Resistance`, query: { num: 2 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="xenon" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="wildHunter pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Resistance`, query: { num: 3 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="mecanic" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="xenon pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Resistance`, query: { num: 4 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>
                         <div className="job__group demon flex-center">
-                            <div className="demonslayer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="demonslayer pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Resistance`, query: { num: 5 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="demonavenger" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                                <Link href={{ pathname: `/group/Resistance`, query: { num: 4 } }}><div className="clickArea"></div></Link>
+                            <div className="demonavenger pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                                <Link href={{ pathname: `/group/Resistance`, query: { num: 6 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>
                     </div>

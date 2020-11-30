@@ -70,7 +70,7 @@ const Index = (props) => {
                     </div>
                     <div className="init__job__group d-flex">
                         <div className="job__group flex-center">
-                            <div className="zero" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="zero pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Zero`, query: { num: 0 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>

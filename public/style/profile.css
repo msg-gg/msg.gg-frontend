@@ -152,10 +152,12 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
+    overflow: visible;
 }
 .profile__recode > div {
-    width: 450px;
-    height: 450px;
+    width: 20vw;
+    height: 35vh;
 
     background-color: rgba(46, 46, 46, 0.5);
 
@@ -165,6 +167,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 
     border: 6px solid rgb(159, 173, 192);
     border-radius: 50%;

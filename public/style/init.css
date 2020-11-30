@@ -142,9 +142,11 @@
 }
 .demonslayer {
     background-image: url(/images/init/demonslayer.png);
+    transform: translate(-50%, 20%) !important;
 }
 .demonavenger {
     background-image: url(/images/init/demonavenger.png);
+    transform: translate(-50%, 20%) !important;
 }
 
 /* heroes */
@@ -190,18 +192,21 @@
 }
 .hoyoung {
     background-image: url(/images/init/hoyoung.png);
+    transform: translate(-50%, 20%) !important;
 }
 
 /* zero */
 
 .zero {
     background-image: url(/images/init/zero.png);
+    transform: translate(-50%, 20%) !important;
 }
 
 /* kinesis */
 
 .kinesis {
     background-image: url(/images/init/kinesis.png);
+    transform: translate(-50%, 20%) !important;
 }
 
 .clickArea {

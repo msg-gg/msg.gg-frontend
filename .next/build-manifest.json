@@ -29,10 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/group/Adventurer.js"
     ],
-    "/profile": [
+    "/ranking/total/WorldRanking": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/profile.js"
+      "static/chunks/pages/ranking/total/WorldRanking.js"
     ]
   },
   "ampFirstPages": []

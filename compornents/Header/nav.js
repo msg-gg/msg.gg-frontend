@@ -7,8 +7,8 @@ const nav = () => {
             <div className="header__navitem h-100 flex-center">
                 <a className="nav-text pointer">랭킹</a>
                 <ul className="header__navitem_sublist">
+                    <li><Link href="/ranking/total/WorldRanking"><a>통합 랭킹</a></Link></li>
                     <li><Link href="/"><a>컨텐츠 랭킹</a></Link></li>
-                    <li><Link href="/"><a>통합 랭킹</a></Link></li>
                 </ul>
             </div>
             <div className="header__navitem h-100 flex-center">

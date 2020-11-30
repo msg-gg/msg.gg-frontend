@@ -31,13 +31,13 @@ const Index = (props) => {
             let group = document.querySelectorAll(`.${data.classList[1]} > div`);
             group.forEach((job, i) => {
                 if(i == 0) {
-                    job.style.transform = `translateX(170px)`;
+                    job.style.transform = `translateX(100px)`;
                 } else if(i == 1) {
-                    job.style.transform = `translateY(170px)`;
+                    job.style.transform = `translateY(190px)`;
                 } else if(i % 2 != 0 && i != 1) {
-                    job.style.transform = `translate(-${170 * (i - 1)}px, 170px)`;
+                    job.style.transform = `translate(-${100 * (i - 1)}px, 190px)`;
                 } else {
-                    job.style.transform = `translateX(-${170 * (i - 1)}px)`;
+                    job.style.transform = `translateX(-${100 * (i - 1)}px)`;
                 }
             })
         })
@@ -70,22 +70,22 @@ const Index = (props) => {
                     </div>
                     <div className="init__job__group d-flex">
                         <div className="job__group flex-center">
-                            <div className="soulMaster" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="soulMaster pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Cygnus`, query: { num: 0 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="mikhail" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="mikhail pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Cygnus`, query: { num: 1 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="flameWizard" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="flameWizard pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Cygnus`, query: { num: 2 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="windBreaker" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="windBreaker pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Cygnus`, query: { num: 3 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="nightWalker" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="nightWalker pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Cygnus`, query: { num: 4 } }}><div className="clickArea"></div></Link>
                             </div>
-                            <div className="striker" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
+                            <div className="striker pointer" onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
                                 <Link href={{ pathname: `/group/Cygnus`, query: { num: 5 } }}><div className="clickArea"></div></Link>
                             </div>
                         </div>

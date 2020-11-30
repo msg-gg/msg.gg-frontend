@@ -1,0 +1,75 @@
+.rankSidebar {
+    width: 280px; 
+    height: 45vh;
+
+    position: relative;
+    left: 5vw;
+    top: 15vh;
+}
+.rankSidebar > li {
+    height: 90px;
+
+    background-color: #fff;
+
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 90px;
+    text-align: center;
+
+    margin: 30px 0;
+
+    opacity: .7;
+}
+.rankSidebar > li.active {
+    background-color: #e1c38b;
+
+    opacity: 1 !important;
+}
+
+.ranking__main {
+    width: 1300px;
+    height: 50vh;
+
+    position: absolute;
+    left: calc(20vw + 280px);
+    top: 15vh;
+
+}
+.ranking__main > div {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.ranking__insignia {
+    width: 300%;
+    height: 400px;
+
+    display: flex;
+}
+.ranking__insignia > div {
+    width: 250px;
+    height: 400px;
+
+    background-image: url(/images/ranking/insignia.png);
+
+    margin: 0 5px;
+}
+.ranking__insignia > div > img {
+    width: 250px;
+    height: 400px;
+}
+
+#prev-btn {
+    position: absolute;
+    left: -150px;
+    top: 100px;
+}
+#next-btn {
+    position: absolute;
+    right: -150px;
+    top: 100px;
+}
