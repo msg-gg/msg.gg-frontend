@@ -7,15 +7,15 @@ import Sidebar from "../../compornents/Sidebar";
 const onMouseOver = e => {
     let jobImage = e.target.parentNode;
     jobImage.style.transition = ".8s";
-    jobImage.style.width = "410px";
-    jobImage.style.height = "450px";
+    jobImage.style.width = "390px";
+    jobImage.style.height = "410px";
 }
 
 const onMouseLeave = e => {
     let jobImage = e.target.parentNode;
     jobImage.style.transition = ".8s";
-    jobImage.style.width = "350px";
-    jobImage.style.height = "370px";
+    jobImage.style.width = "14vw";
+    jobImage.style.height = "28vh";
 }
 
 const Index = (props) => {
@@ -31,14 +31,18 @@ const Index = (props) => {
             let group = document.querySelectorAll(`.${data.classList[1]} > div`);
             group.forEach((job, i) => {
                 if(i == 0) {
-                    job.style.transform = `translateX(100px)`;
+                    job.style.transform = `translateX(17vw)`;
                 } else if(i == 1) {
-                    job.style.transform = `translateY(190px)`;
-                } else if(i % 2 != 0 && i != 1) {
-                    job.style.transform = `translate(-${100 * (i - 1)}px, 190px)`;
-                } else {
-                    job.style.transform = `translateX(-${100 * (i - 1)}px)`;
-                }
+                    job.style.transform = `translate(11vw, 180px)`;
+                } else if(i == 2) {
+                    job.style.transform = `translateX(4.5vw)`;
+                } else if(i == 3) {
+                    job.style.transform = `translate(-2vw, 180px)`;
+                }  else if(i == 4) {
+                    job.style.transform = `translateX(-9.5vw)`;
+                }  else if(i == 5) {
+                    job.style.transform = `translate(-16vw, 180px)`;
+                } 
             })
         })
 

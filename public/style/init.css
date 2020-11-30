@@ -3,7 +3,7 @@
 }
 
 .init__job {
-    width: 55vw;
+    width: 100vw;
     height: 80vh;
 
     position: absolute;
@@ -22,34 +22,35 @@
 .init__job__title img { height: 230px; transform: translate(10px, 50px); }
 
 .init__job__group { width: 500%; }
-.job__group { width: 1700px; height: 500px; padding-bottom: 5vh; }
+.job__group { width: 100vw; height: 30vh; }
 .job__group > div {
-    width: 350px;
-    height: 370px;
+    width: 14vw;
+    height: 28vh;
 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-
-    position: relative;
+    
     z-index: 1000;
     pointer-events: none;
 }
 
 #prev-btn {
-    width: 200px;
+    width: 160px;
     
     position: absolute;
-    top: 35vh;
+    left: 20vw;
+    top: 40vh;
 
     cursor: pointer;
 }
 
 #next-btn {
-    width: 200px;
+    width: 160px;
     
     position: absolute;
-    right: 0; top: 35vh;
+    right: 20vw; 
+    top: 40vh;
 
     cursor: pointer;
 }
@@ -142,11 +143,11 @@
 }
 .demonslayer {
     background-image: url(/images/init/demonslayer.png);
-    transform: translate(-50%, 20%) !important;
+    transform: translate(0%, 20%) !important;
 }
 .demonavenger {
     background-image: url(/images/init/demonavenger.png);
-    transform: translate(-50%, 20%) !important;
+    transform: translate(0%, 20%) !important;
 }
 
 /* heroes */
@@ -192,21 +193,19 @@
 }
 .hoyoung {
     background-image: url(/images/init/hoyoung.png);
-    transform: translate(-50%, 20%) !important;
+    transform: translateY(50px) !important;
 }
 
 /* zero */
 
 .zero {
     background-image: url(/images/init/zero.png);
-    transform: translate(-50%, 20%) !important;
 }
 
 /* kinesis */
 
 .kinesis {
     background-image: url(/images/init/kinesis.png);
-    transform: translate(-50%, 20%) !important;
 }
 
 .clickArea {

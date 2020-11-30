@@ -7,15 +7,15 @@ import Sidebar from "../../compornents/Sidebar";
 const onMouseOver = e => {
     let jobImage = e.target.parentNode;
     jobImage.style.transition = ".8s";
-    jobImage.style.width = "410px";
-    jobImage.style.height = "450px";
+    jobImage.style.width = "390px";
+    jobImage.style.height = "410px";
 }
 
 const onMouseLeave = e => {
     let jobImage = e.target.parentNode;
     jobImage.style.transition = ".8s";
-    jobImage.style.width = "350px";
-    jobImage.style.height = "370px";
+    jobImage.style.width = "14vw";
+    jobImage.style.height = "28vh";
 }
 
 const Index = (props) => {
@@ -30,15 +30,7 @@ const Index = (props) => {
         zero.forEach(data => {
             let group = document.querySelectorAll(`.${data.classList[1]} > div`);
             group.forEach((job, i) => {
-                if(i == 0) {
-                    job.style.transform = `translateX(170px)`;
-                } else if(i == 1) {
-                    job.style.transform = `translateY(170px)`;
-                } else if(i % 2 != 0 && i != 1) {
-                    job.style.transform = `translate(-${170 * (i - 1)}px, 170px)`;
-                } else {
-                    job.style.transform = `translateX(-${170 * (i - 1)}px)`;
-                }
+                job.style.transform = `translateY(50px)`;
             })
         })
 

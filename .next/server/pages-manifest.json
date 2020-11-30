@@ -2,12 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/init/Adventurer": "pages/init/Adventurer.js",
-  "/init/Cygnus": "pages/init/Cygnus.js",
   "/init/Resistance": "pages/init/Resistance.js",
-  "/init/Hero": "pages/init/Hero.js",
   "/init/Grandis": "pages/init/Grandis.js",
-  "/init/Zero": "pages/init/Zero.js",
-  "/init/Kinesis": "pages/init/Kinesis.js"
+  "/init/Cygnus": "pages/init/Cygnus.js",
+  "/init/Adventurer": "pages/init/Adventurer.js",
+  "/init/Hero": "pages/init/Hero.js"
 }

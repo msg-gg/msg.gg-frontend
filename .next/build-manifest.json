@@ -14,11 +14,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -49,20 +44,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/init/Hero.js"
     ],
-    "/init/Kinesis": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/init/Kinesis.js"
-    ],
     "/init/Resistance": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/init/Resistance.js"
-    ],
-    "/init/Zero": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/init/Zero.js"
     ]
   },
   "ampFirstPages": []

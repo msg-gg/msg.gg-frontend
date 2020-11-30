@@ -38,6 +38,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .font-bold { font-weight: bold; }
 .font-lighter { font-weight: lighter; }

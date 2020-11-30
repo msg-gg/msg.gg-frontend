@@ -7,15 +7,15 @@ import Sidebar from "../../compornents/Sidebar";
 const onMouseOver = e => {
     let jobImage = e.target.parentNode;
     jobImage.style.transition = ".8s";
-    jobImage.style.width = "410px";
-    jobImage.style.height = "450px";
+    jobImage.style.width = "390px";
+    jobImage.style.height = "410px";
 }
 
 const onMouseLeave = e => {
     let jobImage = e.target.parentNode;
     jobImage.style.transition = ".8s";
-    jobImage.style.width = "350px";
-    jobImage.style.height = "370px";
+    jobImage.style.width = "14vw";
+    jobImage.style.height = "28vh";
 }
 
 const Index = (props) => {
@@ -130,10 +130,10 @@ const Index = (props) => {
                             </div>
                         </div>
                     </div>
-                    <img id="prev-btn" src="../../images/left-button.png" onClick={()=>setNum(num - 1 < 0 ? 0 : num - 1)} alt=""/>
-                    <img id="next-btn" src="../../images/right-button.png" onClick={()=>setNum(num + 1 > 4 ? 4 : num + 1)} alt=""/>
                 </div>
             </div>
+            <img id="prev-btn" src="../../images/left-button.png" onClick={()=>setNum(num - 1 < 0 ? 0 : num - 1)} alt=""/>
+            <img id="next-btn" src="../../images/right-button.png" onClick={()=>setNum(num + 1 > 4 ? 4 : num + 1)} alt=""/>
         </div>
     );
 };
