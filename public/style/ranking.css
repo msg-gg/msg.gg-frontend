@@ -1,19 +1,19 @@
 .rankSidebar {
-    width: 280px; 
+    width: 13vw; 
     height: 45vh;
 
     position: relative;
     left: 5vw;
-    top: 15vh;
+    top: 10vh;
 }
 .rankSidebar > li {
-    height: 90px;
+    height: 8vh;
 
     background-color: #fff;
 
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
-    line-height: 90px;
+    line-height: 8vh;
     text-align: center;
 
     margin: 30px 0;
@@ -27,17 +27,17 @@
 }
 
 .ranking__main {
-    width: 1300px;
-    height: 50vh;
+    width: 53vw;
+    height: 90vh;
 
     position: absolute;
     left: calc(20vw + 280px);
-    top: 15vh;
+    top: 10vh;
 
 }
 .ranking__main > div {
-    width: 100%;
-    height: 100%;
+    width: calc((10vw + 10px) * 5);
+    height: 400px;
 
     position: relative;
 
@@ -51,16 +51,20 @@
     display: flex;
 }
 .ranking__insignia > div {
-    width: 250px;
-    height: 400px;
+    width: 10vw;
+    height: 16vw;
 
-    background-image: url(/images/ranking/insignia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     margin: 0 5px;
 }
 .ranking__insignia > div > img {
-    width: 250px;
-    height: 400px;
+    width: 10vw;
+    height: 16vw;
+
+    user-select: none;
+    pointer-events: none;
 }
 
 #prev-btn {
@@ -72,4 +76,13 @@
     position: absolute;
     right: -150px;
     top: 100px;
+}
+
+table {
+    width: 100%;  
+    
+}
+table > * {    
+    font-weight: bold;
+
 }

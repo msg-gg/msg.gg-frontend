@@ -2,18 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/init/Adventurer": "pages/init/Adventurer.js",
-  "/init/Cygnus": "pages/init/Cygnus.js",
-  "/init/Kinesis": "pages/init/Kinesis.js",
-  "/group/Adventurer": "pages/group/Adventurer.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/group/Cygnus": "pages/group/Cygnus.js",
-  "/group/Resistance": "pages/group/Resistance.js",
-  "/group/Hero": "pages/group/Hero.js",
-  "/group/Grandis": "pages/group/Grandis.js",
-  "/group/Zero": "pages/group/Zero.js",
-  "/group/Kinesis": "pages/group/Kinesis.js",
   "/ranking/total/WorldRanking": "pages/ranking/total/WorldRanking.js",
-  "/ranking/total/RebootRanking": "pages/ranking/total/RebootRanking.js",
-  "/ranking/total/guildRanking": "pages/ranking/total/guildRanking.js"
+  "/group/Adventurer": "pages/group/Adventurer.js"
 }

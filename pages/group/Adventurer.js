@@ -39,23 +39,6 @@ const Adventurer = (props) => {
     const data = [];
     data.push(hero, paladine, darknight, arkmagetc, arkmagefp, bishop, bowmaster, marks, pathfinder, nightlord, shadower, dualblade, viper, captain, cannonmaster);
 
-    const server = [
-        { en : "reboot", ko : "리부트" },
-        { en : "reboot", ko : "리부트2" },
-        { en : "red", ko : "레드" },
-        { en : "elysium", ko : "엘리시움" },
-        { en : "croa", ko : "크로아" },
-        { en : "zenith", ko : "제니스" },
-        { en : "aurora", ko : "오로라" },
-        { en : "bera", ko : "베라" },
-        { en : "union", ko : "유니온" },
-        { en : "nova", ko : "노바" },
-        { en : "scania", ko : "스카니아" },
-        { en : "luna", ko : "루나" },
-        { en : "enosis", ko : "이노시스" },
-        { en : "arcane", ko :  "아케인" }      
-    ]
-
     useEffect(() => {
         console.log(num)
         setJob(jobArr[num]);
@@ -163,8 +146,8 @@ const Adventurer = (props) => {
                                     <td>월드내 유저비율</td>
                                 </tr>
                             </thead>
-                                <tbody className="server__area">
-                                </tbody>
+                            <tbody className="server__area">
+                            </tbody>
                         </table>
                     </div>
                     <div id={job} className="character__img"></div>

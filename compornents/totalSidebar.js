@@ -4,7 +4,6 @@ import { useEffect } from "react";
 const sideBar = (props) => {
     useEffect(() => {
         let active = kind.indexOf(props.kind);
-        console.log(active)
 
         document.querySelectorAll(".rankSidebar > li").forEach((li, i) => {
             if(i == active) 
