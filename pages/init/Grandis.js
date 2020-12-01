@@ -30,14 +30,12 @@ const Index = (props) => {
             let group = document.querySelectorAll(`.${data.classList[1]} > div`);
             group.forEach((job, i) => {
                 if(i == 0) {
-                    job.style.transform = `translateX(130px)`;
+                    job.style.transform = `translateX(6vw)`;
                 } else if(i == 1) {
-                    job.style.transform = `translateY(170px)`;
-                } else if(i % 2 != 0 && i != 1) {
-                    job.style.transform = `translate(-${130 * (i - 1)}px, 170px)`;
-                } else {
-                    job.style.transform = `translateX(-${130 * (i - 1)}px)`;
-                }
+                    job.style.transform = `translateY(15vh)`;
+                } else if(i == 2) {
+                    job.style.transform = `translateX(-6vw)`;
+                } 
             })
         })
 

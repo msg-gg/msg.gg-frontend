@@ -33,15 +33,15 @@ const Index = (props) => {
                 if(i == 0) {
                     job.style.transform = `translateX(17vw)`;
                 } else if(i == 1) {
-                    job.style.transform = `translate(11vw, 180px)`;
+                    job.style.transform = `translate(11vw, 17vh)`;
                 } else if(i == 2) {
                     job.style.transform = `translateX(4.5vw)`;
                 } else if(i == 3) {
-                    job.style.transform = `translate(-2vw, 180px)`;
+                    job.style.transform = `translate(-2vw, 17vh)`;
                 }  else if(i == 4) {
                     job.style.transform = `translateX(-9.5vw)`;
                 }  else if(i == 5) {
-                    job.style.transform = `translate(-16vw, 180px)`;
+                    job.style.transform = `translate(-16vw, 17vh)`;
                 } 
             })
         })

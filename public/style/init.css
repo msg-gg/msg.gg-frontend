@@ -193,7 +193,7 @@
 }
 .hoyoung {
     background-image: url(/images/init/hoyoung.png);
-    transform: translateY(50px) !important;
+    transform: translateY(8vh) !important;
 }
 
 /* zero */

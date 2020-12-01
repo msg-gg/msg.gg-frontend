@@ -24,25 +24,75 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/group/Adventurer": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Adventurer.js"
+    ],
+    "/group/Cygnus": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Cygnus.js"
+    ],
+    "/group/Grandis": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Grandis.js"
+    ],
+    "/group/Hero": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Hero.js"
+    ],
+    "/group/Kinesis": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Kinesis.js"
+    ],
+    "/group/Resistance": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Resistance.js"
+    ],
+    "/group/Zero": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/group/Zero.js"
+    ],
     "/init/Adventurer": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/init/Adventurer.js"
     ],
-    "/init/Grandis": [
+    "/init/Cygnus": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/init/Grandis.js"
+      "static/chunks/pages/init/Cygnus.js"
     ],
-    "/init/Hero": [
+    "/init/Kinesis": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/init/Hero.js"
+      "static/chunks/pages/init/Kinesis.js"
     ],
-    "/init/Resistance": [
+    "/next/dist/pages/_error": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/init/Resistance.js"
+      "static/chunks/pages/next/dist/pages/_error.js"
+    ],
+    "/ranking/total/RebootRanking": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/ranking/total/RebootRanking.js"
+    ],
+    "/ranking/total/WorldRanking": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/ranking/total/WorldRanking.js"
+    ],
+    "/ranking/total/guildRanking": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/ranking/total/guildRanking.js"
     ]
   },
   "ampFirstPages": []

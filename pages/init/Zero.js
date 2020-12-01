@@ -30,7 +30,7 @@ const Index = (props) => {
         zero.forEach(data => {
             let group = document.querySelectorAll(`.${data.classList[1]} > div`);
             group.forEach((job, i) => {
-                job.style.transform = `translateY(50px)`;
+                job.style.transform = `translateY(8vh)`;
             })
         })
 
