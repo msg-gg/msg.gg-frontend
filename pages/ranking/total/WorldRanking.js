@@ -3,7 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../../../compornents/Header/header";
 import Sidebar from "../../../compornents/totalSidebar"
-import Json from "../../../Json/Total.json";
+import Rank from "../../../Json/Rank.json";
+import RebootRank from "../../../Json/RebootRank.json";
 
 const Index = (props) => {
     const [num, setNum] = useState(0);
@@ -34,13 +35,17 @@ const Index = (props) => {
 
         data[num].forEach(item => {
             let tr = document.createElement("tr");
-
             tr.innerHTML = `
-                            <td>${item.rank} </td>
-                            <td><img className="server__image" style="width: 1vw height: 5vh; margin-right: .5em;" src="${item.img}" alt=""/></td>
-                            <td>${item.job}</td>
-                            <td>${item.level} </td>
-                            <td>${item.popularity} </td>`;
+                            <td class="d-flex align-items-center pl-5">
+                                <p class="pr-5">${item.rank} </p>
+                                <img style="width: 75px; height: 75px; margin-right: .5em; margin-top: 1em;" src="${item.img}" alt=""/>
+                                <div class="pt-4">
+                                    <p>${item.name}</p>
+                                    <p>${item.level} | ${item.job}</p>
+                                </div>
+                            </td>
+                            <td><p>${item.popularity}</p></td>
+                            <td><p>${item.popularity}</p></td>`;
 
             tbody.appendChild(tr)
         })
@@ -63,11 +68,12 @@ const Index = (props) => {
         "reboot2"
     ]
 
-    const { lunaRank, scaniaRank, elysiumRank, croaRank, auroraRank, beraRank, redRank, unionRank, zenithRank, enosisRank, arcaneRank, novaRank, rebootRank, reboot2Rank } = Json;
-
+    const { lunaRank, scaniaRank, elysiumRank, croaRank, auroraRank, beraRank, redRank, unionRank, zenithRank, enosisRank, arcaneRank, novaRank } = Rank;
+    const { rebootRank, reboot2Rank } = RebootRank;
     const data = [];
-    data.push(lunaRank, scaniaRank, elysiumRank, croaRank, auroraRank, beraRank, redRank, unionRank, zenithRank, enosisRank, arcaneRank, novaRank, rebootRank, reboot2Rank);
 
+    data.push(lunaRank, scaniaRank, elysiumRank, croaRank, auroraRank, beraRank, redRank, unionRank, zenithRank, enosisRank, arcaneRank, novaRank);
+    data.push(rebootRank, reboot2Rank)
     return (
         <div>
             <Head>
@@ -102,21 +108,22 @@ const Index = (props) => {
                             <div onClick={() => setNum(13)} className="flex-center pointer"><img src="../../images/ranking/world/reboot2.png" alt=""/></div>
                         </div>
                     </div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>2020년 11월 27일 금요일</th>
-                            </tr>
-                            <tr>
-                                <td>순위</td>
-                                <td>캐릭터 정보</td>
-                                <td>인기도</td>
-                                <td>길드</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
+                    <div className="ranking__table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>2020년 11월 27일 금요일</th>
+                                </tr>
+                                <tr className="table-title pt-3 pb-3">
+                                    <td>캐릭터 정보</td>
+                                    <td>인기도</td>
+                                    <td>길드</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
                     <img id="next-btn" className="pointer" src="../../images/right-button.png" onClick={()=>setNum(num + 1 > world.length - 1 ? world.length - 1 : num + 1)} alt=""/>
                 </div>
             </div>

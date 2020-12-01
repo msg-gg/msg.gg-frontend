@@ -4,7 +4,7 @@
 
     position: relative;
     left: 5vw;
-    top: 10vh;
+    top: 8vh;
 }
 .rankSidebar > li {
     height: 8vh;
@@ -32,12 +32,12 @@
 
     position: absolute;
     left: calc(20vw + 280px);
-    top: 10vh;
+    top: 8vh;
 
 }
 .ranking__main > div {
     width: calc((10vw + 10px) * 5);
-    height: 400px;
+    height: 30vh;
 
     position: relative;
 
@@ -46,7 +46,7 @@
 
 .ranking__insignia {
     width: 300%;
-    height: 400px;
+    height: 30vh;
 
     display: flex;
 }
@@ -78,11 +78,55 @@
     top: 100px;
 }
 
+.ranking__table {
+    height: 660px !important;
+}
 table {
     width: 100%;  
-    
 }
 table > * {    
     font-weight: bold;
+}
+table > thead > tr {
+    height: 60px;
 
+    font-weight: bold;
+    line-height: 60px;
+}
+table > thead > tr > th { padding-left: 15px; }
+table > tbody {
+    width: 100%;
+    height: 540px;
+
+    position: absolute;
+
+    overflow: scroll;
+}
+table > tbody::-webkit-scrollbar {
+    display: none;
+}
+table > tbody td p:first-child {
+    margin: 0 !important;
+} 
+table > tbody > tr { 
+    width: 100%;
+    height: 90px !important; 
+    
+}
+table > tbody > tr > td:first-child {
+    width: 39.5vw;
+}
+table > tbody > tr > td:nth-child(2) {
+    width: 15%;
+}
+
+.table-title {
+    height: 55px;
+
+    background-color: #e1c38b;
+
+    line-height: 55px;
+}
+.table-title > td:first-child {
+    padding-left: 150px;
 }
