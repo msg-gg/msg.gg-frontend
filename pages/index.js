@@ -6,7 +6,7 @@ import Main from '../compornents/Main'
 const Index = () => {
 
     useEffect(() => {
-        document.querySelector("#__next").style.backgroundImage = `url(../../images/background/login.png)`
+        document.querySelector("#__next").style.backgroundImage = `url(../../images/background/main.png)`
     })
 
     return (

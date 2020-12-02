@@ -1,3 +1,42 @@
 #__next {
     background-image: url(/images/background/login.png);
 }
+
+
+/* header__search */
+
+.search {
+    position: absolute;
+    left: 47vw; top: 70vh;
+    transform: translate(-50%, -50%);
+}
+
+.search input {
+    width: 30vw;
+    height: 6vh;
+
+    font-size: 1vw;
+    font-weight: bold;
+
+    outline: none;
+    border: none;
+    border-radius: 0.5vw;
+    padding-left: 3%;
+
+    box-shadow: 0.2vw 0.2vw 0.2vw rgba(68, 68, 68, 0.4);
+}
+.search button {
+    width: 8vw;
+    height: 6vh;
+
+    background-color: rgb(255, 159, 177);
+
+    font-size: 1.05vw;
+    font-weight: bold;
+    color: #fff;
+
+    border-radius: 0.5vw;
+    border: 1px solid transparent;
+
+    margin-left: 1.5vw;
+}

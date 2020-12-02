@@ -8,27 +8,17 @@ const nav = () => {
                 <a className="nav-text pointer">랭킹</a>
                 <ul className="header__navitem_sublist">
                     <li><Link href="/ranking/total/WorldRanking"><a>통합 랭킹</a></Link></li>
-                    <li><Link href="/"><a>컨텐츠 랭킹</a></Link></li>
+                    <li><Link href="/ranking/content/DojangRanking"><a>컨텐츠 랭킹</a></Link></li>
                 </ul>
             </div>
             <div className="header__navitem h-100 flex-center">
                 <a className="nav-text pointer">통계</a>
                 <ul className="header__navitem_sublist">
-                    <li><Link href={`/init/Adventurer`}><a>직업 통계</a></Link></li>
-                    <li><Link href="/"><a>월드 통계</a></Link></li>
+                    <li><Link href="/init/Adventurer"><a>직업 통계</a></Link></li>
+                    <li><Link href="/world/WorldStats"><a>월드 통계</a></Link></li>
                 </ul>
             </div>
-            <div className="header__navitem h-100 flex-center">
-                <a className="nav-text pointer">소식</a>
-                <ul className="header__navitem_sublist">
-                    <li><Link href="/"><a>업데이트</a></Link></li>
-                    <li><Link href="/"><a>이벤트</a></Link></li>
-                    <li><Link href="/"><a>링크/유니온</a></Link></li>
-                    <li><Link href="/"><a>유니온 아레나</a></Link></li>
-                    <li><Link href="/"><a>폭업 사냥터</a></Link></li>
-                    <li><Link href="/"><a>신규 5차 스킬</a></Link></li>
-                </ul>
-            </div>
+            <Link href="/"><a className="mr-2 nav-text" href="#">소식</a></Link>
         </nav>
     );
 };

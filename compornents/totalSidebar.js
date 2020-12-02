@@ -15,7 +15,6 @@ const sideBar = (props) => {
 
     const kind = [
         "World", 
-        "Reboot",
         "Guild",
         "Achievement"
     ]
@@ -23,7 +22,6 @@ const sideBar = (props) => {
     return (
         <ul className="rankSidebar">
             <Link href={`/ranking/total/WorldRanking`}><li className="pointer">월드 랭킹</li></Link>
-            <Link href={`/ranking/total/RebootRanking`}><li className="pointer ">리부트 랭킹</li></Link>
             <Link href={`/ranking/total/guildRanking`}><li className="pointer ">길드 랭킹</li></Link>
             <Link href={`/ranking/total/AchievementRanking`}><li className="pointer ">업적 랭킹</li></Link>
         </ul>

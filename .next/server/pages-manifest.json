@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/ranking/total/WorldRanking": "pages/ranking/total/WorldRanking.js",
-  "/group/Adventurer": "pages/group/Adventurer.js"
+  "/world/WorldStats": "pages/world/WorldStats.js",
+  "/profile": "pages/profile.js",
+  "/": "pages/index.js"
 }

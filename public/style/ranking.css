@@ -3,7 +3,7 @@
     height: 45vh;
 
     position: relative;
-    left: 5vw;
+    left: 7vw;
     top: 8vh;
 }
 .rankSidebar > li {
@@ -83,6 +83,10 @@
 }
 table {
     width: 100%;  
+
+    background-image: url(/images/table.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 table > * {    
     font-weight: bold;
@@ -94,9 +98,19 @@ table > thead > tr {
     line-height: 60px;
 }
 table > thead > tr > th { padding-left: 15px; }
+table > thead > tr:last-child > td:first-child {
+    width: 39.5vw;
+}
+table > thead > tr:last-child > td:nth-child(2) {
+    width: 14%;
+}
 table > tbody {
     width: 100%;
     height: 540px;
+
+    background-image: url(/images/table.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 
     position: absolute;
 
