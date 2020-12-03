@@ -145,25 +145,23 @@ const Profile = () => {
 
                 status.appendChild(state);
 
-                let analysis = document.querySelector(".profile__analysis");
+                let analysis = document.querySelector(".profile__analysis .profile__analysis__img");
                 analysis.innerHTML = "";
                 let analysisImg = new Image();
                 analysisImg.src = `${character.image}`;
                 analysis.appendChild(analysisImg)
 
-                let analysisHtml = document.createElement("div");
-                analysisHtml.innerHTML = `
-                    <div class="text-white">
-                        <p>모자 ${character.coord.head}</p>
-                        <p>헤어 ${character.coord.hair}</p>
-                        <p>성형 ${character.coord.face}</p>
-                        <p>상의 ${character.coord.top}</p>
-                        <p>하의 ${character.coord.bottom}</p>
-                        <p>신발 ${character.coord.shoes}</p>
-                        <p>무기 ${character.coord.weapon}</p>
-                    </div>
+                let profileAnalysisInfo = document.querySelector(".profile__analysis__info");
+
+                profileAnalysisInfo.innerHTML = `
+                    <p><span class="pr-2">모자</span> ${character.coord.head}</p>
+                    <p><span class="pr-2">헤어</span> ${character.coord.hair}</p>
+                    <p><span class="pr-2">성형</span> ${character.coord.face}</p>
+                    <p><span class="pr-2">상의</span> ${character.coord.top}</p>
+                    <p><span class="pr-2">하의</span> ${character.coord.bottom}</p>
+                    <p><span class="pr-2">신발</span> ${character.coord.shoes}</p>
+                    <p><span class="pr-2">무기</span> ${character.coord.weapon}</p>
                 `
-                analysis.appendChild(analysisHtml)
 
                 // record
 
@@ -271,7 +269,7 @@ const Profile = () => {
                     <li className={`profile__sidebar__el ${state == "information" ? "profile__sidebar__el__active" : ""}  profile__sidebar__information pointer`} onClick={() => setState("information")}></li>
                     <li className={`profile__sidebar__el ${state == "record" ? "profile__sidebar__el__active" : ""} profile__sidebar__record pointer`} onClick={() => setState("record")}></li>
                 </ul>
-                <div className="profile__main">
+                <div className="profile__main flex-center">
                     <div className="profile flex-center">
                         <div className="profile__img">
 
@@ -283,7 +281,13 @@ const Profile = () => {
                         <button>즐겨찾기</button>
                         <button className="ml-3">프로필 사진</button>
                     </div>
-                    <div className="profile__analysis flex-center mt-5">
+                    <div className="profile__analysis mt-5">
+                        <h4 className="pl-4 pb-3">코디 분석</h4>
+                        <div className="flex-center">
+                            <div className="profile__analysis__img flex-center"></div>
+                            <div className="profile__analysis__info">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="profile__recode flex-center">

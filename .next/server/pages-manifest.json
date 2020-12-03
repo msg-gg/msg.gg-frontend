@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/world/WorldStats": "pages/world/WorldStats.js",
-  "/profile": "pages/profile.js",
-  "/": "pages/index.js"
+  "/ranking/content/DojangRanking": "pages/ranking/content/DojangRanking.js",
+  "/profile": "pages/profile.js"
 }
